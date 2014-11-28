@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:duration="@android:integer/config_shortAnimTime">
+    <alpha
+        android:interpolator="@android:anim/anticipate_interpolator"
+        android:fromAlpha="1.0"
+        android:toAlpha="0"
+        android:duration="5000"/>
+<!--     <translate -->
+<!--         android:fromYDelta="0" -->
+<!--         android:toYDelta="-100%" -->
+<!--         android:duration="3000"/> -->
+
+</set>

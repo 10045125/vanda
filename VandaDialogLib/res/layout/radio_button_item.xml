@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radiobutton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/dialog_select_check_bg"
+    android:paddingTop="15dp"
+    android:paddingLeft="40dp"
+    android:paddingBottom="15dp"
+    android:textColor="@drawable/radiobutton_text_color" />

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- <item android:id="@+id/menu_search" -->
+<!--           android:title="@string/menu_search" -->
+<!--           android:icon="@drawable/search_icon" -->
+<!--           android:showAsAction="ifRoom|collapseActionView" -->
+<!--           android:actionViewClass="android.widget.SearchView" /> -->
+<item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="ifRoom"/>
+    <item  
+        android:id="@+id/refresh_loading"  
+        android:showAsAction="always"  />
+<!--     <item -->
+<!--         android:id="@+id/action_d" -->
+<!--         android:title="@string/action_refresh" -->
+<!--         android:showAsAction="ifRoom"/> -->
+</menu>

@@ -1,0 +1,1383 @@
+com.android.volley.AuthFailureError:
+    34:36:public AuthFailureError(android.content.Intent)
+    43:44:public AuthFailureError(java.lang.String)
+    47:48:public AuthFailureError(java.lang.String,java.lang.Exception)
+    51:51:public android.content.Intent getResolutionIntent()
+com.android.volley.Cache:
+    public abstract void invalidate(java.lang.String,boolean)
+    public abstract void remove(java.lang.String)
+    public abstract void clear()
+com.android.volley.DefaultRetryPolicy:
+    public static final int DEFAULT_TIMEOUT_MS
+    public static final int DEFAULT_MAX_RETRIES
+    public static final float DEFAULT_BACKOFF_MULT
+com.android.volley.ExecutorDelivery:
+    49:51:public ExecutorDelivery(java.util.concurrent.Executor)
+com.android.volley.NetworkResponse:
+    52:54:public NetworkResponse(byte[])
+com.android.volley.Request$Method
+com.android.volley.RequestQueue:
+    private static final int DEFAULT_NETWORK_THREAD_POOL_SIZE
+com.android.volley.VolleyError:
+    35:37:public VolleyError(java.lang.String)
+    40:42:public VolleyError(java.lang.String,java.lang.Throwable)
+com.android.volley.VolleyLog:
+    41:46:public static void setTag(java.lang.String)
+    67:68:public static varargs void wtf(java.lang.String,java.lang.Object[])
+    71:72:public static varargs void wtf(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.android.volley.VolleyLog$MarkerLog:
+    private static final long MIN_DURATION_FOR_LOGGING_MS
+com.android.volley.toolbox.AndroidAuthenticator
+com.android.volley.toolbox.Authenticator
+com.android.volley.toolbox.BasicNetwork:
+    229:232:protected void logError(java.lang.String,java.lang.String,long)
+com.android.volley.toolbox.ClearCacheRequest
+com.android.volley.toolbox.DiskBasedCache:
+    private static final int DEFAULT_DISK_USAGE_BYTES
+    private static final float HYSTERESIS_FACTOR
+    private static final int CACHE_MAGIC
+    82:83:public DiskBasedCache(java.io.File)
+    90:99:public synchronized void clear()
+    179:188:public synchronized void invalidate(java.lang.String,boolean)
+com.android.volley.toolbox.HttpHeaderParser:
+    31:31:public HttpHeaderParser()
+com.android.volley.toolbox.HurlStack:
+    private static final java.lang.String HEADER_CONTENT_TYPE
+com.android.volley.toolbox.ImageLoader:
+    115:115:public static com.android.volley.toolbox.ImageLoader$ImageListener getImageListener(android.widget.ImageView,int,int)
+    176:181:public boolean isCached(java.lang.String,int,int)
+    285:286:public void setBatchedResponseDelay(int)
+com.android.volley.toolbox.ImageLoader$1
+com.android.volley.toolbox.ImageRequest:
+    private static final int IMAGE_TIMEOUT_MS
+    private static final int IMAGE_MAX_RETRIES
+    private static final float IMAGE_BACKOFF_MULT
+com.android.volley.toolbox.JsonArrayRequest
+com.android.volley.toolbox.JsonObjectRequest
+com.android.volley.toolbox.JsonRequest
+com.android.volley.toolbox.NoCache
+com.android.volley.toolbox.PoolingByteArrayOutputStream:
+    private static final int DEFAULT_SIZE
+    40:41:public PoolingByteArrayOutputStream(com.android.volley.toolbox.ByteArrayPool)
+com.android.volley.toolbox.RequestFuture
+com.android.volley.toolbox.StringRequest
+com.android.volley.toolbox.Volley:
+    private static final java.lang.String DEFAULT_CACHE_DIR
+    31:31:public Volley()
+    48:77:public static com.android.volley.RequestQueue newRequestQueue(android.content.Context,com.android.volley.toolbox.HttpStack)
+    85:114:public static com.android.volley.RequestQueue newRequestQueueInDisk(android.content.Context,java.lang.String,com.android.volley.toolbox.HttpStack)
+    159:159:public static com.android.volley.RequestQueue newRequestQueue(android.content.Context)
+com.astuetz.PagerSlidingTabStrip:
+    466:466:public int getIndicatorColor()
+    475:475:public int getIndicatorHeight()
+    489:489:public int getUnderlineColor()
+    507:507:public int getDividerColor()
+    516:516:public int getUnderlineHeight()
+    525:525:public int getDividerPadding()
+    534:534:public int getScrollOffset()
+    543:543:public boolean getShouldExpand()
+    547:547:public boolean isTextAllCaps()
+    561:561:public int getTextSize()
+    575:575:public int getTextColor()
+    589:589:public int getSelectedTextColor()
+    604:604:public int getTabBackground()
+    613:613:public int getTabPaddingLeftRight()
+com.astuetz.pagerslidingtabstrip.R:
+    9:9:public R()
+com.astuetz.pagerslidingtabstrip.R$attr
+com.astuetz.pagerslidingtabstrip.R$color
+com.astuetz.pagerslidingtabstrip.R$drawable:
+    27:27:public R$drawable()
+com.astuetz.pagerslidingtabstrip.R$styleable:
+    30:30:public R$styleable()
+com.google.gson.DefaultDateTypeAdapter
+com.google.gson.FieldAttributes:
+    53:53:public java.lang.Class getDeclaringClass()
+    60:60:public java.lang.String getName()
+    80:80:public java.lang.reflect.Type getDeclaredType()
+    100:100:public java.lang.Class getDeclaredClass()
+    111:111:public java.lang.annotation.Annotation getAnnotation(java.lang.Class)
+    121:121:public java.util.Collection getAnnotations()
+    135:135:public boolean hasModifier(int)
+    146:146:java.lang.Object get(java.lang.Object)
+    155:155:boolean isSynthetic()
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    462:465:public com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    485:487:public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    504:507:public java.lang.String toJson(java.lang.Object)
+    526:528:public java.lang.String toJson(java.lang.Object,java.lang.reflect.Type)
+    546:551:public void toJson(java.lang.Object,java.lang.Appendable)
+    571:576:public void toJson(java.lang.Object,java.lang.reflect.Type,java.lang.Appendable)
+    585:601:public void toJson(java.lang.Object,java.lang.reflect.Type,com.google.gson.stream.JsonWriter)
+    611:613:public java.lang.String toJson(com.google.gson.JsonElement)
+    626:631:public void toJson(com.google.gson.JsonElement,java.lang.Appendable)
+    638:646:private com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)
+    654:669:public void toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)
+    740:743:public java.lang.Object fromJson(java.io.Reader,java.lang.Class)
+com.google.gson.Gson$1:
+    126:126:public java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$2:
+    132:132:public com.google.gson.JsonElement serialize(java.lang.Object)
+    135:135:public com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.GsonBuilder
+com.google.gson.JsonArray:
+    45:49:com.google.gson.JsonArray deepCopy()
+    70:71:public void addAll(com.google.gson.JsonArray)
+    79:79:public int size()
+    101:101:public com.google.gson.JsonElement get(int)
+    163:166:public java.math.BigDecimal getAsBigDecimal()
+    180:183:public java.math.BigInteger getAsBigInteger()
+    196:199:public float getAsFloat()
+    236:239:public byte getAsByte()
+    244:247:public char getAsCharacter()
+    260:263:public short getAsShort()
+    33:33:bridge synthetic com.google.gson.JsonElement deepCopy()
+com.google.gson.JsonDeserializationContext:
+    public abstract java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.JsonDeserializer
+com.google.gson.JsonElement:
+    abstract com.google.gson.JsonElement deepCopy()
+    136:139:public com.google.gson.JsonNull getAsJsonNull()
+    217:217:public float getAsFloat()
+    257:257:public byte getAsByte()
+    271:271:public char getAsCharacter()
+    285:285:public java.math.BigDecimal getAsBigDecimal()
+    299:299:public java.math.BigInteger getAsBigInteger()
+    312:312:public short getAsShort()
+com.google.gson.JsonIOException:
+    33:34:public JsonIOException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonNull:
+    45:45:com.google.gson.JsonNull deepCopy()
+    26:26:bridge synthetic com.google.gson.JsonElement deepCopy()
+com.google.gson.JsonObject:
+    38:42:com.google.gson.JsonObject deepCopy()
+    68:68:public com.google.gson.JsonElement remove(java.lang.String)
+    79:80:public void addProperty(java.lang.String,java.lang.String)
+    90:91:public void addProperty(java.lang.String,java.lang.Number)
+    101:102:public void addProperty(java.lang.String,java.lang.Boolean)
+    112:113:public void addProperty(java.lang.String,java.lang.Character)
+    122:122:private com.google.gson.JsonElement createJsonElement(java.lang.Object)
+    142:142:public boolean has(java.lang.String)
+    152:152:public com.google.gson.JsonElement get(java.lang.String)
+    162:162:public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    172:172:public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    182:182:public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
+    32:32:bridge synthetic com.google.gson.JsonElement deepCopy()
+com.google.gson.JsonPrimitive:
+    74:76:public JsonPrimitive(java.lang.Character)
+    84:86:JsonPrimitive(java.lang.Object)
+    90:90:com.google.gson.JsonPrimitive deepCopy()
+    204:204:public java.math.BigDecimal getAsBigDecimal()
+    215:215:public java.math.BigInteger getAsBigInteger()
+    227:227:public float getAsFloat()
+    249:249:public short getAsShort()
+    265:265:public byte getAsByte()
+    270:270:public char getAsCharacter()
+    33:33:bridge synthetic com.google.gson.JsonElement deepCopy()
+com.google.gson.JsonSerializationContext:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object)
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.LongSerializationPolicy:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$1:
+    36:36:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$2:
+    47:47:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.TreeTypeAdapter
+com.google.gson.TreeTypeAdapter$1
+com.google.gson.TreeTypeAdapter$SingleTypeFactory
+com.google.gson.TypeAdapter:
+    141:143:public final void toJson(java.io.Writer,java.lang.Object)
+    186:186:public final com.google.gson.TypeAdapter nullSafe()
+    215:217:public final java.lang.String toJson(java.lang.Object)
+    255:256:public final java.lang.Object fromJson(java.io.Reader)
+    269:269:public final java.lang.Object fromJson(java.lang.String)
+    280:283:public final java.lang.Object fromJsonTree(com.google.gson.JsonElement)
+com.google.gson.TypeAdapter$1
+com.google.gson.internal.$Gson$Preconditions:
+    32:32:public $Gson$Preconditions()
+com.google.gson.internal.$Gson$Types:
+    45:45:private $Gson$Types()
+com.google.gson.internal.Excluder:
+    private static final double IGNORE_VERSIONS
+    70:72:public com.google.gson.internal.Excluder withVersion(double)
+    76:81:public varargs com.google.gson.internal.Excluder withModifiers(int[])
+    85:87:public com.google.gson.internal.Excluder disableInnerClassSerialization()
+    91:93:public com.google.gson.internal.Excluder excludeFieldsWithoutExposeAnnotation()
+    98:108:public com.google.gson.internal.Excluder withExclusionStrategy(com.google.gson.ExclusionStrategy,boolean,boolean)
+com.google.gson.internal.Primitives:
+    32:32:private Primitives()
+    80:80:public static boolean isWrapperType(java.lang.reflect.Type)
+    113:115:public static java.lang.Class unwrap(java.lang.Class)
+com.google.gson.internal.Streams:
+    35:79:public Streams()
+    72:72:public static java.io.Writer writerForAppendable(java.lang.Appendable)
+com.google.gson.internal.Streams$1
+com.google.gson.internal.Streams$AppendableWriter
+com.google.gson.internal.Streams$AppendableWriter$CurrentWrite
+com.google.gson.internal.bind.JsonTreeWriter:
+    163:167:public com.google.gson.stream.JsonWriter value(double)
+com.google.gson.internal.bind.TypeAdapters:
+    58:58:private TypeAdapters()
+    769:769:public static com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken,com.google.gson.TypeAdapter)
+com.google.gson.internal.bind.TypeAdapters$23:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.internal.bind.TypeAdapters$27
+com.google.gson.reflect.TypeToken:
+    112:112:public boolean isAssignableFrom(java.lang.Class)
+    123:140:public boolean isAssignableFrom(java.lang.reflect.Type)
+    153:153:public boolean isAssignableFrom(com.google.gson.reflect.TypeToken)
+    161:178:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    188:231:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    240:250:private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    257:265:private static varargs java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type,java.lang.Class[])
+    273:273:private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+com.google.gson.stream.JsonReader:
+    private static final long MIN_INCOMPLETE_INTEGER
+    private static final int PEEKED_NONE
+    private static final int PEEKED_BEGIN_OBJECT
+    private static final int PEEKED_END_OBJECT
+    private static final int PEEKED_BEGIN_ARRAY
+    private static final int PEEKED_END_ARRAY
+    private static final int PEEKED_TRUE
+    private static final int PEEKED_FALSE
+    private static final int PEEKED_NULL
+    private static final int PEEKED_SINGLE_QUOTED
+    private static final int PEEKED_DOUBLE_QUOTED
+    private static final int PEEKED_UNQUOTED
+    private static final int PEEKED_BUFFERED
+    private static final int PEEKED_SINGLE_QUOTED_NAME
+    private static final int PEEKED_DOUBLE_QUOTED_NAME
+    private static final int PEEKED_UNQUOTED_NAME
+    private static final int PEEKED_LONG
+    private static final int PEEKED_NUMBER
+    private static final int PEEKED_EOF
+    private static final int NUMBER_CHAR_NONE
+    private static final int NUMBER_CHAR_SIGN
+    private static final int NUMBER_CHAR_DIGIT
+    private static final int NUMBER_CHAR_DECIMAL
+    private static final int NUMBER_CHAR_FRACTION_DIGIT
+    private static final int NUMBER_CHAR_EXP_E
+    private static final int NUMBER_CHAR_EXP_SIGN
+    private static final int NUMBER_CHAR_EXP_DIGIT
+com.google.gson.stream.JsonScope
+com.google.gson.stream.JsonWriter:
+    213:220:public final void setIndent(java.lang.String)
+    253:254:public final void setHtmlSafe(boolean)
+    261:261:public final boolean isHtmlSafe()
+    269:270:public final void setSerializeNulls(boolean)
+    462:468:public com.google.gson.stream.JsonWriter value(double)
+com.google.gson.stream.MalformedJsonException:
+    33:37:public MalformedJsonException(java.lang.String,java.lang.Throwable)
+    39:43:public MalformedJsonException(java.lang.Throwable)
+com.haarman.listviewanimations.ArrayAdapter
+com.haarman.listviewanimations.itemmanipulation.AnimateDismissAdapter
+com.haarman.listviewanimations.itemmanipulation.AnimateDismissAdapter$1
+com.haarman.listviewanimations.itemmanipulation.AnimateDismissAdapter$2
+com.haarman.listviewanimations.itemmanipulation.AnimateDismissAdapter$3
+com.haarman.listviewanimations.itemmanipulation.OnDismissCallback
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissAdapter
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissListViewTouchListener
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissListViewTouchListener$1
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissListViewTouchListener$2
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissListViewTouchListener$3
+com.haarman.listviewanimations.itemmanipulation.SwipeDismissListViewTouchListener$PendingDismissData
+com.haarman.listviewanimations.swinginadapters.ResourceAnimationAdapter
+com.haarman.listviewanimations.swinginadapters.SingleAnimationAdapter
+com.haarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter
+com.haarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter
+com.haarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter
+com.haarman.listviewanimations.swinginadapters.prepared.SwingRightInAnimationAdapter
+com.handmark.pulltorefresh.library.ILoadingLayout:
+    public abstract void setTextTypeface(android.graphics.Typeface)
+com.handmark.pulltorefresh.library.IPullToRefresh
+com.handmark.pulltorefresh.library.LoadingLayoutProxy:
+    69:72:public void setTextTypeface(android.graphics.Typeface)
+com.handmark.pulltorefresh.library.OverscrollHelper:
+    static final java.lang.String LOG_TAG
+    static final float DEFAULT_OVERSCROLL_SCALE
+    26:26:public OverscrollHelper()
+com.handmark.pulltorefresh.library.PullToRefreshAdapterViewBase:
+    99:99:public boolean getShowIndicator()
+com.handmark.pulltorefresh.library.PullToRefreshBase:
+    static final boolean DEBUG
+    static final boolean USE_HW_LAYERS
+    static final java.lang.String LOG_TAG
+    static final float FRICTION
+    public static final int SMOOTH_SCROLL_DURATION_MS
+    public static final int SMOOTH_SCROLL_LONG_DURATION_MS
+    static final int DEMO_SCROLL_INTERVAL
+    static final java.lang.String STATE_STATE
+    static final java.lang.String STATE_MODE
+    static final java.lang.String STATE_CURRENT_MODE
+    static final java.lang.String STATE_SCROLLING_REFRESHING_ENABLED
+    static final java.lang.String STATE_SHOW_REFRESHING_VIEW
+    static final java.lang.String STATE_SUPER
+    149:157:public final boolean demo()
+    167:167:public final boolean getFilterTouchEvents()
+    205:205:public final boolean isDisableScrollingWhileRefreshing()
+    228:228:public final boolean isScrollingWhileRefreshingEnabled()
+    675:675:protected int getPullToRefreshScrollDurationLonger()
+    1062:1063:protected final void smoothScrollToLonger(int)
+    1347:1356:private final void smoothScrollToAndBack(int)
+    1313:1313:static synthetic void access$5(com.handmark.pulltorefresh.library.PullToRefreshBase,int,long,long,com.handmark.pulltorefresh.library.PullToRefreshBase$OnSmoothScrollFinishedListener)
+com.handmark.pulltorefresh.library.PullToRefreshBase$3
+com.handmark.pulltorefresh.library.PullToRefreshExpandableListView:
+    39:40:public PullToRefreshExpandableListView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    43:44:public PullToRefreshExpandableListView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshGridView:
+    39:40:public PullToRefreshGridView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    43:44:public PullToRefreshGridView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshHorizontalScrollView:
+    37:38:public PullToRefreshHorizontalScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    41:42:public PullToRefreshHorizontalScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshScrollView:
+    37:38:public PullToRefreshScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    41:42:public PullToRefreshScrollView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshWebView:
+    39:78:public PullToRefreshWebView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    39:88:public PullToRefreshWebView(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode,com.handmark.pulltorefresh.library.PullToRefreshBase$AnimationStyle)
+com.handmark.pulltorefresh.library.PullToRefreshWebView$InternalWebViewSDK9:
+    static final int OVERSCROLL_FUZZY_THRESHOLD
+    static final float OVERSCROLL_SCALE_FACTOR
+com.handmark.pulltorefresh.library.R:
+    9:9:public R()
+com.handmark.pulltorefresh.library.R$anim:
+    10:10:public R$anim()
+com.handmark.pulltorefresh.library.R$attr
+com.handmark.pulltorefresh.library.R$color
+com.handmark.pulltorefresh.library.R$dimen:
+    201:201:public R$dimen()
+com.handmark.pulltorefresh.library.R$drawable:
+    215:215:public R$drawable()
+com.handmark.pulltorefresh.library.R$id:
+    283:283:public R$id()
+com.handmark.pulltorefresh.library.R$layout:
+    314:314:public R$layout()
+com.handmark.pulltorefresh.library.R$menu
+com.handmark.pulltorefresh.library.R$string:
+    327:327:public R$string()
+com.handmark.pulltorefresh.library.R$style
+com.handmark.pulltorefresh.library.R$styleable:
+    353:353:public R$styleable()
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2:
+    static final java.lang.String JS_INTERFACE_PKG
+    static final java.lang.String DEF_JS_READY_PULL_DOWN_CALL
+    static final java.lang.String DEF_JS_READY_PULL_UP_CALL
+    77:82:public PullToRefreshWebView2(android.content.Context,com.handmark.pulltorefresh.library.PullToRefreshBase$Mode)
+    82:82:static synthetic java.util.concurrent.atomic.AtomicBoolean access$0(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+    81:81:static synthetic java.util.concurrent.atomic.AtomicBoolean access$1(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2$JsValueCallback:
+    125:126:public void isReadyForPullUpResponse(boolean)
+    129:130:public void isReadyForPullDownResponse(boolean)
+com.handmark.pulltorefresh.library.extras.SoundPullEventListener
+com.handmark.pulltorefresh.library.internal.EmptyViewMethodAccessor:
+    public abstract void setEmptyView(android.view.View)
+com.handmark.pulltorefresh.library.internal.FlipLoadingLayout:
+    static final int FLIP_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.IndicatorLayout:
+    static final int DEFAULT_ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.LoadingLayout:
+    static final java.lang.String LOG_TAG
+com.handmark.pulltorefresh.library.internal.RotateLoadingLayout:
+    static final int ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.Utils:
+    static final java.lang.String LOG_TAG
+    5:5:public Utils()
+com.handmark.pulltorefresh.library.internal.ViewCompat:
+    25:25:public ViewCompat()
+    44:47:public static void setLayerType(android.view.View,int)
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK11
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK16:
+    58:58:ViewCompat$SDK16()
+com.jakewharton.salvage.RecyclingPagerAdapter:
+    static final int IGNORE_ITEM_VIEW_TYPE
+com.johnliu.swipefinish.core.SwipeFinishLayout:
+    268:274:private void scrollToFinish()
+com.nineoldandroids.animation.Animator
+com.nineoldandroids.animation.Animator$AnimatorListener
+com.nineoldandroids.animation.AnimatorInflater
+com.nineoldandroids.animation.AnimatorListenerAdapter
+com.nineoldandroids.animation.AnimatorSet
+com.nineoldandroids.animation.AnimatorSet$1
+com.nineoldandroids.animation.AnimatorSet$AnimatorSetListener
+com.nineoldandroids.animation.AnimatorSet$Builder
+com.nineoldandroids.animation.AnimatorSet$Dependency
+com.nineoldandroids.animation.AnimatorSet$DependencyListener
+com.nineoldandroids.animation.AnimatorSet$Node
+com.nineoldandroids.animation.ArgbEvaluator
+com.nineoldandroids.animation.FloatEvaluator
+com.nineoldandroids.animation.FloatKeyframeSet
+com.nineoldandroids.animation.IntEvaluator
+com.nineoldandroids.animation.IntKeyframeSet
+com.nineoldandroids.animation.Keyframe
+com.nineoldandroids.animation.Keyframe$FloatKeyframe
+com.nineoldandroids.animation.Keyframe$IntKeyframe
+com.nineoldandroids.animation.Keyframe$ObjectKeyframe
+com.nineoldandroids.animation.KeyframeSet
+com.nineoldandroids.animation.ObjectAnimator
+com.nineoldandroids.animation.PreHoneycombCompat
+com.nineoldandroids.animation.PreHoneycombCompat$1
+com.nineoldandroids.animation.PreHoneycombCompat$10
+com.nineoldandroids.animation.PreHoneycombCompat$11
+com.nineoldandroids.animation.PreHoneycombCompat$12
+com.nineoldandroids.animation.PreHoneycombCompat$13
+com.nineoldandroids.animation.PreHoneycombCompat$14
+com.nineoldandroids.animation.PreHoneycombCompat$2
+com.nineoldandroids.animation.PreHoneycombCompat$3
+com.nineoldandroids.animation.PreHoneycombCompat$4
+com.nineoldandroids.animation.PreHoneycombCompat$5
+com.nineoldandroids.animation.PreHoneycombCompat$6
+com.nineoldandroids.animation.PreHoneycombCompat$7
+com.nineoldandroids.animation.PreHoneycombCompat$8
+com.nineoldandroids.animation.PreHoneycombCompat$9
+com.nineoldandroids.animation.PropertyValuesHolder
+com.nineoldandroids.animation.PropertyValuesHolder$1
+com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder
+com.nineoldandroids.animation.PropertyValuesHolder$IntPropertyValuesHolder
+com.nineoldandroids.animation.TimeAnimator
+com.nineoldandroids.animation.TimeAnimator$TimeListener
+com.nineoldandroids.animation.TypeEvaluator
+com.nineoldandroids.animation.ValueAnimator
+com.nineoldandroids.animation.ValueAnimator$1
+com.nineoldandroids.animation.ValueAnimator$2
+com.nineoldandroids.animation.ValueAnimator$3
+com.nineoldandroids.animation.ValueAnimator$4
+com.nineoldandroids.animation.ValueAnimator$5
+com.nineoldandroids.animation.ValueAnimator$AnimationHandler
+com.nineoldandroids.animation.ValueAnimator$AnimatorUpdateListener
+com.nineoldandroids.util.FloatProperty
+com.nineoldandroids.util.IntProperty
+com.nineoldandroids.util.NoSuchPropertyException
+com.nineoldandroids.util.Property
+com.nineoldandroids.util.ReflectiveProperty
+com.nineoldandroids.view.ViewHelper:
+    9:9:private ViewHelper()
+    12:12:public static float getAlpha(android.view.View)
+    24:24:public static float getPivotX(android.view.View)
+    28:33:public static void setPivotX(android.view.View,float)
+    36:36:public static float getPivotY(android.view.View)
+    40:45:public static void setPivotY(android.view.View,float)
+    48:48:public static float getRotation(android.view.View)
+    52:57:public static void setRotation(android.view.View,float)
+    60:60:public static float getRotationX(android.view.View)
+    64:69:public static void setRotationX(android.view.View,float)
+    72:72:public static float getRotationY(android.view.View)
+    76:81:public static void setRotationY(android.view.View,float)
+    84:84:public static float getScaleX(android.view.View)
+    88:93:public static void setScaleX(android.view.View,float)
+    96:96:public static float getScaleY(android.view.View)
+    100:105:public static void setScaleY(android.view.View,float)
+    108:108:public static float getScrollX(android.view.View)
+    112:117:public static void setScrollX(android.view.View,int)
+    120:120:public static float getScrollY(android.view.View)
+    124:129:public static void setScrollY(android.view.View,int)
+    132:132:public static float getTranslationX(android.view.View)
+    136:141:public static void setTranslationX(android.view.View,float)
+    144:144:public static float getTranslationY(android.view.View)
+    148:153:public static void setTranslationY(android.view.View,float)
+    156:156:public static float getX(android.view.View)
+    160:165:public static void setX(android.view.View,float)
+    168:168:public static float getY(android.view.View)
+    172:177:public static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewHelper$Honeycomb:
+    179:179:private ViewHelper$Honeycomb()
+    181:181:static float getAlpha(android.view.View)
+    189:189:static float getPivotX(android.view.View)
+    193:194:static void setPivotX(android.view.View,float)
+    197:197:static float getPivotY(android.view.View)
+    201:202:static void setPivotY(android.view.View,float)
+    205:205:static float getRotation(android.view.View)
+    209:210:static void setRotation(android.view.View,float)
+    213:213:static float getRotationX(android.view.View)
+    217:218:static void setRotationX(android.view.View,float)
+    221:221:static float getRotationY(android.view.View)
+    225:226:static void setRotationY(android.view.View,float)
+    229:229:static float getScaleX(android.view.View)
+    233:234:static void setScaleX(android.view.View,float)
+    237:237:static float getScaleY(android.view.View)
+    241:242:static void setScaleY(android.view.View,float)
+    245:245:static float getScrollX(android.view.View)
+    249:250:static void setScrollX(android.view.View,int)
+    253:253:static float getScrollY(android.view.View)
+    257:258:static void setScrollY(android.view.View,int)
+    261:261:static float getTranslationX(android.view.View)
+    265:266:static void setTranslationX(android.view.View,float)
+    269:269:static float getTranslationY(android.view.View)
+    273:274:static void setTranslationY(android.view.View,float)
+    277:277:static float getX(android.view.View)
+    281:282:static void setX(android.view.View,float)
+    285:285:static float getY(android.view.View)
+    289:290:static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewPropertyAnimator
+com.nineoldandroids.view.ViewPropertyAnimatorHC
+com.nineoldandroids.view.ViewPropertyAnimatorHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorHC$PropertyBundle
+com.nineoldandroids.view.ViewPropertyAnimatorICS
+com.nineoldandroids.view.ViewPropertyAnimatorICS$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$PropertyBundle
+com.nineoldandroids.view.animation.AnimatorProxy:
+    71:71:public float getAlpha()
+    83:83:public float getPivotX()
+    86:92:public void setPivotX(float)
+    94:94:public float getPivotY()
+    97:103:public void setPivotY(float)
+    105:105:public float getRotation()
+    108:113:public void setRotation(float)
+    115:115:public float getRotationX()
+    118:123:public void setRotationX(float)
+    125:125:public float getRotationY()
+    129:134:public void setRotationY(float)
+    136:136:public float getScaleX()
+    139:144:public void setScaleX(float)
+    146:146:public float getScaleY()
+    149:154:public void setScaleY(float)
+    156:160:public int getScrollX()
+    163:167:public void setScrollX(int)
+    169:173:public int getScrollY()
+    176:180:public void setScrollY(int)
+    183:183:public float getTranslationX()
+    186:191:public void setTranslationX(float)
+    193:193:public float getTranslationY()
+    196:201:public void setTranslationY(float)
+    203:207:public float getX()
+    210:214:public void setX(float)
+    216:220:public float getY()
+    223:227:public void setY(float)
+    230:234:private void prepareForUpdate()
+    236:250:private void invalidateAfterUpdate()
+    254:278:private void computeRect(android.graphics.RectF,android.view.View)
+com.nostra13.universalimageloader.cache.disc.BaseDiscCache:
+    private static final java.lang.String ERROR_ARG_NULL
+    40:41:public BaseDiscCache(java.io.File)
+    63:69:public void clear()
+com.nostra13.universalimageloader.cache.disc.DiscCacheAware:
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.disc.LimitedDiscCache:
+    private static final int INVALID_SIZE
+    55:56:public LimitedDiscCache(java.io.File,int)
+    119:122:public void clear()
+com.nostra13.universalimageloader.cache.disc.impl.LimitedAgeDiscCache
+com.nostra13.universalimageloader.cache.disc.impl.TotalSizeLimitedDiscCache:
+    private static final int MIN_NORMAL_CACHE_SIZE_IN_MB
+    private static final int MIN_NORMAL_CACHE_SIZE
+com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache:
+    36:37:public UnlimitedDiscCache(java.io.File)
+com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator
+com.nostra13.universalimageloader.cache.memory.BaseMemoryCache
+com.nostra13.universalimageloader.cache.memory.LimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.MemoryCacheAware:
+    public abstract void clear()
+com.nostra13.universalimageloader.cache.memory.impl.FIFOLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.FuzzyKeyMemoryCache:
+    72:73:public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LargestLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LimitedAgeMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache:
+    126:127:public void clear()
+com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache
+com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache
+com.nostra13.universalimageloader.core.DefaultConfigurationFactory:
+    53:121:public DefaultConfigurationFactory()
+com.nostra13.universalimageloader.core.DisplayBitmapTask:
+    private static final java.lang.String LOG_DISPLAY_IMAGE_IN_IMAGEAWARE
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+com.nostra13.universalimageloader.core.DisplayImageOptions$Builder:
+    249:250:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showStubImage(int)
+    260:261:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnLoading(int)
+    270:271:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnLoading(android.graphics.drawable.Drawable)
+    282:283:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageForEmptyUri(int)
+    293:294:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageForEmptyUri(android.graphics.drawable.Drawable)
+    305:306:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnFail(int)
+    316:317:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder showImageOnFail(android.graphics.drawable.Drawable)
+    327:328:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading()
+    336:337:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder resetViewBeforeLoading(boolean)
+    346:347:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheInMemory()
+    352:353:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheInMemory(boolean)
+    362:363:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder cacheOnDisc()
+    397:399:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder decodingOptions(android.graphics.BitmapFactory$Options)
+    404:405:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder delayBeforeLoading(int)
+    410:411:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder extraForDownloader(java.lang.Object)
+    426:427:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder preProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    436:437:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder postProcessor(com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    445:447:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder displayer(com.nostra13.universalimageloader.core.display.BitmapDisplayer)
+    451:452:com.nostra13.universalimageloader.core.DisplayImageOptions$Builder syncLoading(boolean)
+    460:461:public com.nostra13.universalimageloader.core.DisplayImageOptions$Builder handler(android.os.Handler)
+com.nostra13.universalimageloader.core.ImageLoader:
+    static final java.lang.String LOG_INIT_CONFIG
+    static final java.lang.String LOG_DESTROY
+    static final java.lang.String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE
+    private static final java.lang.String WARNING_RE_INIT_CONFIG
+    private static final java.lang.String ERROR_WRONG_ARGUMENTS
+    private static final java.lang.String ERROR_NOT_INIT
+    private static final java.lang.String ERROR_INIT_CONFIG_WITH_NULL
+    108:108:public boolean isInited()
+    124:125:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    142:143:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    160:161:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    181:182:public void displayImage(java.lang.String,com.nostra13.universalimageloader.core.imageaware.ImageAware,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    281:282:public void displayImage(java.lang.String,android.widget.ImageView)
+    298:299:public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    315:316:public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    335:336:public void displayImage(java.lang.String,android.widget.ImageView,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    372:373:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    392:393:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    411:412:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    436:437:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.assist.ImageLoadingListener)
+    463:473:public void loadImage(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions,com.nostra13.universalimageloader.core.assist.ImageLoadingListener,com.nostra13.universalimageloader.core.assist.ImageLoadingProgressListener)
+    487:487:public android.graphics.Bitmap loadImageSync(java.lang.String)
+    503:503:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    521:521:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize)
+    540:547:public android.graphics.Bitmap loadImageSync(java.lang.String,com.nostra13.universalimageloader.core.assist.ImageSize,com.nostra13.universalimageloader.core.DisplayImageOptions)
+    567:568:public com.nostra13.universalimageloader.cache.memory.MemoryCacheAware getMemoryCache()
+    577:579:public void clearMemoryCache()
+    587:588:public com.nostra13.universalimageloader.cache.disc.DiscCacheAware getDiscCache()
+    597:599:public void clearDiscCache()
+    606:606:public java.lang.String getLoadingUriForView(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    614:614:public java.lang.String getLoadingUriForView(android.widget.ImageView)
+    625:626:public void cancelDisplayTask(com.nostra13.universalimageloader.core.imageaware.ImageAware)
+    635:636:public void cancelDisplayTask(android.widget.ImageView)
+    649:650:public void denyNetworkDownloads(boolean)
+    660:661:public void handleSlowNetwork(boolean)
+    669:670:public void pause()
+    674:675:public void resume()
+    682:683:public void stop()
+    691:695:public void destroy()
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration:
+    139:139:public static com.nostra13.universalimageloader.core.ImageLoaderConfiguration createDefault(android.content.Context)
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder:
+    private static final java.lang.String WARNING_OVERLAP_DISC_CACHE_PARAMS
+    private static final java.lang.String WARNING_OVERLAP_DISC_CACHE_NAME_GENERATOR
+    private static final java.lang.String WARNING_OVERLAP_MEMORY_CACHE
+    private static final java.lang.String WARNING_OVERLAP_EXECUTOR
+    public static final int DEFAULT_THREAD_POOL_SIZE
+    public static final int DEFAULT_THREAD_PRIORITY
+    222:224:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheExtraOptions(int,int)
+    242:247:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder discCacheExtraOptions(int,int,android.graphics.Bitmap$CompressFormat,int,com.nostra13.universalimageloader.core.process.BitmapProcessor)
+    264:269:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutor(java.util.concurrent.Executor)
+    291:296:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder taskExecutorForCachedImages(java.util.concurrent.Executor)
+    318:331:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder threadPriority(int)
+    343:344:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder denyCacheImageMultipleSizesInMemory()
+    352:357:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder tasksProcessingOrder(com.nostra13.universalimageloader.core.assist.QueueProcessingType)
+    389:399:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCacheSizePercentage(int)
+    413:418:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder memoryCache(com.nostra13.universalimageloader.cache.memory.MemoryCacheAware)
+    539:540:public com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder writeDebugLogs()
+com.nostra13.universalimageloader.core.ImageLoaderEngine:
+    139:140:void denyNetworkDownloads(boolean)
+    150:151:void handleSlowNetwork(boolean)
+    158:159:void pause()
+    163:167:void resume()
+    171:180:void stop()
+com.nostra13.universalimageloader.core.LoadAndDisplayImageTask:
+    private static final java.lang.String LOG_WAITING_FOR_RESUME
+    private static final java.lang.String LOG_RESUME_AFTER_PAUSE
+    private static final java.lang.String LOG_DELAY_BEFORE_LOADING
+    private static final java.lang.String LOG_START_DISPLAY_IMAGE_TASK
+    private static final java.lang.String LOG_WAITING_FOR_IMAGE_LOADED
+    private static final java.lang.String LOG_GET_IMAGE_FROM_MEMORY_CACHE_AFTER_WAITING
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_NETWORK
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_DISC_CACHE
+    private static final java.lang.String LOG_RESIZE_CACHED_IMAGE_FILE
+    private static final java.lang.String LOG_PREPROCESS_IMAGE
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+    private static final java.lang.String LOG_CACHE_IMAGE_IN_MEMORY
+    private static final java.lang.String LOG_CACHE_IMAGE_ON_DISC
+    private static final java.lang.String LOG_PROCESS_IMAGE_BEFORE_CACHE_ON_DISC
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+    private static final java.lang.String LOG_TASK_INTERRUPTED
+    private static final java.lang.String ERROR_PRE_PROCESSOR_NULL
+    private static final java.lang.String ERROR_POST_PROCESSOR_NULL
+    private static final java.lang.String ERROR_PROCESSOR_FOR_DISC_CACHE_NULL
+    private static final int BUFFER_SIZE
+com.nostra13.universalimageloader.core.ProcessAndDisplayImageTask:
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+com.nostra13.universalimageloader.core.assist.DiscCacheUtil
+com.nostra13.universalimageloader.core.assist.FailReason:
+    37:37:public com.nostra13.universalimageloader.core.assist.FailReason$FailType getType()
+    42:42:public java.lang.Throwable getCause()
+com.nostra13.universalimageloader.core.assist.ImageSize:
+    private static final int TO_STRING_MAX_LENGHT
+    private static final java.lang.String SEPARATOR
+com.nostra13.universalimageloader.core.assist.MemoryCacheUtil:
+    private static final java.lang.String URI_AND_SIZE_SEPARATOR
+    private static final java.lang.String WIDTH_AND_HEIGHT_SEPARATOR
+    37:38:private MemoryCacheUtil()
+    66:72:public static java.util.List findCachedBitmapsForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCacheAware)
+    82:88:public static java.util.List findCacheKeysForImageUri(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCacheAware)
+    98:107:public static void removeFromCache(java.lang.String,com.nostra13.universalimageloader.cache.memory.MemoryCacheAware)
+com.nostra13.universalimageloader.core.assist.PauseOnScrollListener
+com.nostra13.universalimageloader.core.assist.SyncImageLoadingListener
+com.nostra13.universalimageloader.core.assist.deque.BlockingDeque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract void putFirst(java.lang.Object)
+    public abstract void putLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract boolean offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object takeFirst()
+    public abstract java.lang.Object takeLast()
+    public abstract java.lang.Object pollFirst(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract void put(java.lang.Object)
+    public abstract boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object take()
+    public abstract java.lang.Object poll(long,java.util.concurrent.TimeUnit)
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract void push(java.lang.Object)
+com.nostra13.universalimageloader.core.assist.deque.Deque:
+    public abstract void addFirst(java.lang.Object)
+    public abstract void addLast(java.lang.Object)
+    public abstract boolean offerFirst(java.lang.Object)
+    public abstract boolean offerLast(java.lang.Object)
+    public abstract java.lang.Object removeFirst()
+    public abstract java.lang.Object removeLast()
+    public abstract java.lang.Object pollFirst()
+    public abstract java.lang.Object pollLast()
+    public abstract java.lang.Object getFirst()
+    public abstract java.lang.Object getLast()
+    public abstract java.lang.Object peekFirst()
+    public abstract java.lang.Object peekLast()
+    public abstract boolean removeFirstOccurrence(java.lang.Object)
+    public abstract boolean removeLastOccurrence(java.lang.Object)
+    public abstract boolean add(java.lang.Object)
+    public abstract boolean offer(java.lang.Object)
+    public abstract java.lang.Object remove()
+    public abstract java.lang.Object poll()
+    public abstract java.lang.Object element()
+    public abstract java.lang.Object peek()
+    public abstract void push(java.lang.Object)
+    public abstract java.lang.Object pop()
+    public abstract boolean remove(java.lang.Object)
+    public abstract boolean contains(java.lang.Object)
+    public abstract int size()
+    public abstract java.util.Iterator iterator()
+    public abstract java.util.Iterator descendingIterator()
+com.nostra13.universalimageloader.core.assist.deque.LinkedBlockingDeque:
+    165:178:public LinkedBlockingDeque(java.util.Collection)
+    294:296:public void addFirst(java.lang.Object)
+    342:352:public void putFirst(java.lang.Object)
+    377:390:public boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)
+    430:432:public java.lang.Object removeLast()
+    446:451:public java.lang.Object pollLast()
+    469:477:public java.lang.Object takeLast()
+    501:513:public java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)
+    530:532:public java.lang.Object getLast()
+    546:551:public java.lang.Object peekLast()
+    573:585:public boolean removeLastOccurrence(java.lang.Object)
+    738:739:public void push(java.lang.Object)
+    745:745:public java.lang.Object pop()
+    1007:1007:public java.util.Iterator descendingIterator()
+com.nostra13.universalimageloader.core.assist.deque.LinkedBlockingDeque$DescendingItr
+com.nostra13.universalimageloader.core.decode.BaseImageDecoder:
+    protected static final java.lang.String LOG_SABSAMPLE_IMAGE
+    protected static final java.lang.String LOG_SCALE_IMAGE
+    protected static final java.lang.String LOG_ROTATE_IMAGE
+    protected static final java.lang.String LOG_FLIP_IMAGE
+    protected static final java.lang.String ERROR_CANT_DECODE_IMAGE
+com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer$RoundedDrawable
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer
+com.nostra13.universalimageloader.core.display.RoundedVignetteBitmapDisplayer$RoundedVignetteDrawable
+com.nostra13.universalimageloader.core.download.BaseImageDownloader:
+    public static final int DEFAULT_HTTP_CONNECT_TIMEOUT
+    public static final int DEFAULT_HTTP_READ_TIMEOUT
+    protected static final int BUFFER_SIZE
+    protected static final java.lang.String ALLOWED_URI_CHARS
+    protected static final int MAX_REDIRECT_COUNT
+    private static final java.lang.String ERROR_UNSUPPORTED_SCHEME
+    66:70:public BaseImageDownloader(android.content.Context,int,int)
+com.nostra13.universalimageloader.core.download.HttpClientImageDownloader
+com.nostra13.universalimageloader.core.imageaware.ImageNonViewAware
+com.nostra13.universalimageloader.utils.ImageSizeUtils:
+    private static final int DEFAULT_MAX_BITMAP_DIMENSION
+    45:46:private ImageSizeUtils()
+com.nostra13.universalimageloader.utils.IoUtils:
+    public static final int DEFAULT_BUFFER_SIZE
+    public static final int CONTINUE_LOADING_PERCENTAGE
+    36:37:private IoUtils()
+com.nostra13.universalimageloader.utils.L:
+    private static final java.lang.String LOG_FORMAT
+    32:33:private L()
+    37:38:public static void enableLogging()
+    42:43:public static void disableLogging()
+    66:67:public static varargs void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.nostra13.universalimageloader.utils.StorageUtils:
+    private static final java.lang.String EXTERNAL_STORAGE_PERMISSION
+    private static final java.lang.String INDIVIDUAL_DIR_NAME
+    38:39:private StorageUtils()
+    111:118:public static java.io.File getOwnCacheDirectory(android.content.Context,java.lang.String)
+com.romainpiel.shimmer.R:
+    9:9:public R()
+com.romainpiel.shimmer.R$attr
+com.romainpiel.shimmer.R$drawable
+com.romainpiel.shimmer.R$string
+com.romainpiel.shimmer.R$styleable:
+    21:21:public R$styleable()
+com.romainpiel.shimmer.Shimmer:
+    public static final int ANIMATION_DIRECTION_LTR
+    public static final int ANIMATION_DIRECTION_RTL
+    private static final int DEFAULT_REPEAT_COUNT
+    private static final long DEFAULT_DURATION
+    private static final long DEFAULT_START_DELAY
+    private static final int DEFAULT_DIRECTION
+    41:41:public int getRepeatCount()
+    45:46:public com.romainpiel.shimmer.Shimmer setRepeatCount(int)
+    50:50:public long getDuration()
+    54:55:public com.romainpiel.shimmer.Shimmer setDuration(long)
+    59:59:public long getStartDelay()
+    63:64:public com.romainpiel.shimmer.Shimmer setStartDelay(long)
+    68:68:public int getDirection()
+    73:78:public com.romainpiel.shimmer.Shimmer setDirection(int)
+    82:82:public android.animation.Animator$AnimatorListener getAnimatorListener()
+    86:87:public com.romainpiel.shimmer.Shimmer setAnimatorListener(android.animation.Animator$AnimatorListener)
+com.romainpiel.shimmer.ShimmerButton:
+    42:42:public float getGradientX()
+    52:52:public boolean isShimmering()
+    72:72:public int getPrimaryColor()
+    82:82:public int getReflectionColor()
+com.romainpiel.shimmer.ShimmerTextView:
+    42:42:public float getGradientX()
+    52:52:public boolean isShimmering()
+    72:72:public int getPrimaryColor()
+    82:82:public int getReflectionColor()
+com.romainpiel.shimmer.ShimmerViewBase:
+    public abstract float getGradientX()
+    public abstract void setGradientX(float)
+    public abstract boolean isShimmering()
+    public abstract int getPrimaryColor()
+    public abstract void setPrimaryColor(int)
+    public abstract int getReflectionColor()
+    public abstract void setReflectionColor(int)
+com.romainpiel.shimmer.ShimmerViewHelper:
+    private static final int DEFAULT_REFLECTION_COLOR
+    60:60:public float getGradientX()
+    69:69:public boolean isShimmering()
+    85:85:public int getPrimaryColor()
+    96:96:public int getReflectionColor()
+com.vanda.beivandalibnetwork.activity.MainActivity:
+    private com.vanda.beivandalibnetwork.pojo.Category mCategory
+    200:216:public void setCategory(com.vanda.beivandalibnetwork.pojo.Category)
+com.vanda.beivandalibnetwork.adapter.BrandFilterActivityAdapter$ViewHold:
+    public android.widget.ImageView mImageViewShoppingCar
+com.vanda.beivandalibnetwork.adapter.ImagePagerAdapter:
+    50:51:public void setImageUrls(java.lang.String[])
+    58:58:public void setImageView(android.view.View,int)
+    135:140:public void setCount(java.util.ArrayList)
+com.vanda.beivandalibnetwork.adapter.ImagePagerIndicatorAdapter:
+    29:38:public ImagePagerIndicatorAdapter(android.content.Context,java.util.List)
+    109:109:public boolean isInfiniteLoop()
+    117:118:public com.vanda.beivandalibnetwork.adapter.ImagePagerIndicatorAdapter setInfiniteLoop(boolean)
+com.vanda.beivandalibnetwork.adapter.ImageViewAdapter
+com.vanda.beivandalibnetwork.adapter.ImageViewAdapter$ViewHold
+com.vanda.beivandalibnetwork.adapter.InformationAdapter$ViewHold:
+    public android.widget.RelativeLayout mRelativeLayoutItem
+    public android.widget.ImageView mImageViewShoppingCar
+    public android.widget.ImageView mImageViewYiZhiKuai
+    public android.widget.TextView mTextViewProductPrice
+    public android.widget.TextView mTextViewProductButPeople
+com.vanda.beivandalibnetwork.adapter.JingxuanAdapter:
+    private java.util.ArrayList mArrayListInformation
+com.vanda.beivandalibnetwork.adapter.SSAdapter$ViewHold:
+    public android.widget.RelativeLayout mRelativeLayoutItem
+    public android.widget.ImageView mImageViewShoppingCar
+    public android.widget.ImageView mImageViewYiZhiKuai
+    public android.widget.TextView mTextViewProductPrice
+    public android.widget.TextView mTextViewProductButPeople
+com.vanda.beivandalibnetwork.fragment.ActionBarFragment:
+    31:35:public static com.vanda.beivandalibnetwork.fragment.ActionBarFragment newInstance(android.content.Context,int)
+    26:40:public ActionBarFragment(android.content.Context)
+com.vanda.beivandalibnetwork.fragment.BbsFragmentSuper:
+    69:71:public void updateData()
+com.vanda.beivandalibnetwork.fragment.FragmentShow:
+    29:33:public static com.vanda.beivandalibnetwork.fragment.FragmentShow newInstance(int)
+com.vanda.beivandalibnetwork.fragment.FragmentSuper:
+    69:71:public void updateData()
+com.vanda.beivandalibnetwork.fragment.InformationFragment:
+    70:71:public void updateData()
+com.vanda.beivandalibnetwork.fragment.JingXuanFragment:
+    290:290:protected void addArrayListData(com.vanda.beivandalibnetwork.pojo.JingXuan)
+    420:423:public void loadFirstPageAndScrollToTop()
+com.vanda.beivandalibnetwork.pojo.BrandData:
+    public int prodId
+    public int hot
+    public int stock
+    public int totalOrders
+com.vanda.beivandalibnetwork.pojo.BrandData$Brand:
+    final synthetic com.vanda.beivandalibnetwork.pojo.BrandData this$0
+    22:22:public BrandData$Brand(com.vanda.beivandalibnetwork.pojo.BrandData)
+com.vanda.beivandalibnetwork.pojo.BrandData$BrandDataFilter:
+    final synthetic com.vanda.beivandalibnetwork.pojo.BrandData this$0
+    17:17:public BrandData$BrandDataFilter(com.vanda.beivandalibnetwork.pojo.BrandData)
+com.vanda.beivandalibnetwork.pojo.FragmentIds
+com.vanda.beivandalibnetwork.pojo.ImageViewPoJo:
+    public java.util.ArrayList data
+    5:5:public ImageViewPoJo()
+com.vanda.beivandalibnetwork.pojo.ImageViewPoJo$Data:
+    public java.lang.String date
+    public java.lang.String doc_title
+    final synthetic com.vanda.beivandalibnetwork.pojo.ImageViewPoJo this$0
+    9:9:public ImageViewPoJo$Data(com.vanda.beivandalibnetwork.pojo.ImageViewPoJo)
+com.vanda.beivandalibnetwork.pojo.ImageViewPoJo$Pic:
+    public java.lang.String pic_datil
+    public java.lang.String sl
+    public java.lang.String web_url
+    final synthetic com.vanda.beivandalibnetwork.pojo.ImageViewPoJo this$0
+    15:15:public ImageViewPoJo$Pic(com.vanda.beivandalibnetwork.pojo.ImageViewPoJo)
+com.vanda.beivandalibnetwork.pojo.InformationData
+com.vanda.beivandalibnetwork.pojo.InformationData$Information
+com.vanda.beivandalibnetwork.pojo.InformationData$TotalPage
+com.vanda.beivandalibnetwork.pojo.InformationIndication:
+    public java.lang.String type
+    public java.lang.String url
+    public java.lang.String date
+    public int comment_page_num
+    public int comments_num
+    public java.lang.String more_comment_url
+    public java.lang.String author
+com.vanda.beivandalibnetwork.pojo.JingXuan$Data:
+    public java.lang.String doc_url
+    public int comment_page_num
+    public java.lang.String comments_num
+    public java.lang.String more_comment_url
+com.vanda.beivandalibnetwork.pojo.JingXuan$TotalPage
+com.vanda.beivandalibnetwork.pojo.SS:
+    public com.vanda.beivandalibnetwork.pojo.SS$Forumname forumname
+    public int cid
+com.vanda.beivandalibnetwork.pojo.SS$Forumname
+com.vanda.beivandalibnetwork.pojo.SS$List:
+    public java.lang.String doc_url
+    public int comment_page_num
+    public int comments_num
+    public java.lang.String more_comment_url
+    final synthetic com.vanda.beivandalibnetwork.pojo.SS this$0
+    25:25:public SS$List(com.vanda.beivandalibnetwork.pojo.SS)
+com.vanda.beivandalibnetwork.pojo.SS$Totalpage:
+    final synthetic com.vanda.beivandalibnetwork.pojo.SS this$0
+    11:11:public SS$Totalpage(com.vanda.beivandalibnetwork.pojo.SS)
+com.vanda.beivandalibnetwork.url.Urls:
+    public static final java.lang.String IMAGE_URL_HEAD
+    public static final java.lang.String DATA_URL_HEAD
+    public static final java.lang.String BRANDFILTER_URL_DATA
+    public static final java.lang.String SS_URL
+    public static final java.lang.String DASHI_URL
+    public static final java.lang.String INFORMATION_URL
+    public static final java.lang.String INFORMATION_IMAGE_URL
+    public static final java.lang.String JINGXUAN_URL
+    6:6:public Urls()
+com.vanda.beivandalibnetwork.utils.Blur:
+    18:18:public Blur()
+com.vanda.beivandalibnetwork.utils.BlurFoldingActionBarToggle:
+    private static final int DEFAULT_RADIUS
+    private static final int DEFAULT_DOWN_SAMPLING
+com.vanda.beivandalibnetwork.utils.CommonUtils
+com.vanda.beivandalibnetwork.utils.HttpUtils:
+    public static final java.lang.String ENC_UTF8
+    public static final java.lang.String HEADER_REAL_IP
+    public static final java.lang.String HEADER_FORWARDED_FOR
+    public static final java.lang.String HEADER_CONTENT_TYPE
+    public static final java.lang.String HEADER_CONTENT_LENGTH
+    public static final java.lang.String HEADER_AUTHORIZATION
+    public static final java.lang.String CONTENT_TYPE_XML
+    private static final java.lang.String CHAR_AMP
+    public static final java.lang.String ENCODING_UTF8
+    private static final java.lang.String AUTH_METHOD_BASIC
+    77:78:public static void setContext(org.apache.http.protocol.HttpContext)
+    87:109:public static java.lang.String encodeParams(java.util.Map)
+    129:137:public static org.apache.http.protocol.HttpContext cookieContext(boolean)
+    148:150:public static org.apache.http.client.CookieStore getCookieStore(org.apache.http.protocol.HttpContext)
+    163:175:public static org.apache.http.cookie.Cookie getCookie(org.apache.http.protocol.HttpContext,java.lang.String)
+    192:192:public static java.lang.String execute(org.apache.http.client.methods.HttpUriRequest,int,int)
+    255:255:public static java.lang.String execute(org.apache.http.client.methods.HttpUriRequest)
+    281:290:public static java.lang.String encodeUrl(java.lang.String,java.lang.String)
+    300:300:public static java.lang.String encodeUrl(java.lang.String)
+    315:315:public static varargs org.apache.http.client.methods.HttpUriRequest urlEncodedForm(org.apache.http.client.methods.HttpPost,java.lang.Object[])
+    330:346:public static varargs org.apache.http.client.methods.HttpUriRequest urlEncodedForm(java.lang.String,org.apache.http.client.methods.HttpPost,java.lang.Object[])
+    374:380:public static varargs java.lang.String post(java.lang.String,java.lang.Object[])
+    398:398:public static varargs java.lang.String post(java.lang.String,org.apache.http.protocol.HttpContext,java.lang.Object[])
+    412:418:public static org.apache.http.client.methods.HttpUriRequest authenticate(org.apache.http.client.methods.HttpUriRequest,java.lang.String,java.lang.String)
+com.vanda.beivandalibnetwork.utils.Logger:
+    private java.lang.String tag
+    35:36:public static void init(android.content.Context)
+    38:40:public Logger(java.lang.String)
+    43:44:public Logger(java.lang.Class)
+    47:48:public varargs void i(java.lang.String,java.lang.Object[])
+    51:52:public varargs void d(java.lang.String,java.lang.Object[])
+    55:56:public varargs void e(java.lang.String,java.lang.Object[])
+    59:60:public varargs void w(java.lang.String,java.lang.Object[])
+    63:67:public static varargs void info(java.lang.String,java.lang.String,java.lang.Object[])
+    77:83:public static varargs void debug(java.lang.String,java.lang.String,java.lang.Object[])
+    86:90:public static varargs void error(java.lang.String,java.lang.String,java.lang.Object[])
+com.vanda.beivandalibnetwork.utils.PreferenceUtils
+com.vanda.beivandalibnetwork.utils.ProgressWheel:
+    256:259:public void resetCount()
+    265:268:public void stopSpinning()
+    274:276:public void spin()
+    282:286:public void incrementProgress()
+    313:313:public int getCircleRadius()
+    321:321:public int getBarLength()
+    329:329:public int getBarWidth()
+    337:337:public int getTextSize()
+    377:377:public int getBarColor()
+    385:385:public int getCircleColor()
+    393:393:public int getRimColor()
+    401:401:public android.graphics.Shader getRimShader()
+    409:409:public int getTextColor()
+    417:417:public int getSpinSpeed()
+    425:425:public int getRimWidth()
+    433:433:public int getDelayMillis()
+com.vanda.beivandalibnetwork.utils.ValidationUtils
+com.vanda.beivandalibnetwork.utils.ValidationUtils$1
+com.vanda.beivandalibnetwork.utils.ValidationUtils$2
+com.vanda.beivandalibnetwork.utils.ValidationUtils$3
+com.vanda.beivandalibnetwork.utils.ValidationUtils$Validator
+com.vanda.beivandalibnetwork.view.utils.AutoScrollViewPager:
+    public static final int DEFAULT_INTERVAL
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int SLIDE_BORDER_MODE_NONE
+    public static final int SLIDE_BORDER_MODE_CYCLE
+    public static final int SLIDE_BORDER_MODE_TO_PARENT
+    public static final int SCROLL_WHAT
+    114:116:public void startAutoScroll(int)
+    273:273:public long getInterval()
+    293:293:public int getDirection()
+    313:313:public boolean isCycle()
+    333:333:public boolean isStopScrollWhenTouch()
+    354:354:public int getSlideBorderMode()
+    377:377:public boolean isBorderAnimation()
+com.vanda.beivandalibnetwork.view.utils.CustomDurationScroller:
+    14:18:public CustomDurationScroller(android.content.Context)
+com.vanda.beivandalibnetwork.view.utils.LoopPagerAdapterWrapper:
+    41:42:void setBoundaryCaching(boolean)
+    36:46:LoopPagerAdapterWrapper(android.support.v4.view.PagerAdapter)
+    75:77:public int toInnerPosition(int)
+    99:99:public android.support.v4.view.PagerAdapter getRealAdapter()
+com.vanda.beivandalibnetworkdemo.BuildConfig
+com.vanda.beivandalibnetworkdemo.R:
+    10:10:public R()
+com.vanda.beivandalibnetworkdemo.R$anim
+com.vanda.beivandalibnetworkdemo.R$array
+com.vanda.beivandalibnetworkdemo.R$attr
+com.vanda.beivandalibnetworkdemo.R$bool
+com.vanda.beivandalibnetworkdemo.R$color
+com.vanda.beivandalibnetworkdemo.R$dimen
+com.vanda.beivandalibnetworkdemo.R$drawable
+com.vanda.beivandalibnetworkdemo.R$id
+com.vanda.beivandalibnetworkdemo.R$integer
+com.vanda.beivandalibnetworkdemo.R$layout
+com.vanda.beivandalibnetworkdemo.R$menu
+com.vanda.beivandalibnetworkdemo.R$string
+com.vanda.beivandalibnetworkdemo.R$style
+com.vanda.beivandalibnetworkdemo.R$styleable:
+    3113:3113:public R$styleable()
+com.vanda.vandalib.camera.MyCamera
+com.vanda.vandalib.camera.MyCamera$1
+com.vanda.vandalib.camera.MyCamera$ConvertTask
+com.vanda.vandalib.camera.MyCamera$TakePhotoInterface
+com.vanda.vandalib.camera.MyCamera$UpdataUiForPhoto
+com.viewpagerindicator.CirclePageIndicator:
+    private static final int INVALID_POINTER
+    123:123:public boolean isCentered()
+    132:132:public int getPageColor()
+    141:141:public int getFillColor()
+    158:158:public int getOrientation()
+    167:167:public int getStrokeColor()
+    176:176:public float getStrokeWidth()
+    185:185:public float getRadius()
+    194:194:public boolean isSnap()
+    398:399:public void notifyDataSetChanged()
+com.viewpagerindicator.IcsLinearLayout:
+    private static final int LL_DIVIDER
+    private static final int LL_SHOW_DIVIDER
+    private static final int LL_DIVIDER_PADDING
+com.viewpagerindicator.LinePageIndicator:
+    private static final int INVALID_POINTER
+    107:107:public boolean isCentered()
+    116:116:public int getUnselectedColor()
+    125:125:public int getSelectedColor()
+    134:134:public float getLineWidth()
+    144:144:public float getStrokeWidth()
+    153:153:public float getGapWidth()
+    311:312:public void notifyDataSetChanged()
+com.viewpagerindicator.PageIndicator:
+    public abstract void setViewPager(android.support.v4.view.ViewPager)
+    public abstract void setViewPager(android.support.v4.view.ViewPager,int)
+    public abstract void setCurrentItem(int)
+    public abstract void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+    public abstract void notifyDataSetChanged()
+com.viewpagerindicator.R:
+    9:9:public R()
+com.viewpagerindicator.R$attr:
+    10:10:public R$attr()
+com.viewpagerindicator.R$bool:
+    43:43:public R$bool()
+com.viewpagerindicator.R$color:
+    50:50:public R$color()
+com.viewpagerindicator.R$dimen:
+    71:71:public R$dimen()
+com.viewpagerindicator.R$drawable
+com.viewpagerindicator.R$id
+com.viewpagerindicator.R$integer:
+    102:102:public R$integer()
+com.viewpagerindicator.R$style
+com.viewpagerindicator.R$styleable:
+    116:116:public R$styleable()
+com.viewpagerindicator.TabPageIndicator:
+    174:175:public void isStyle(boolean)
+    467:467:public boolean getMoveRight()
+    476:476:public boolean getMoveLeft()
+com.viewpagerindicator.TitlePageIndicator:
+    private static final float SELECTION_FADE_PERCENTAGE
+    private static final float BOLD_FADE_PERCENTAGE
+    private static final java.lang.String EMPTY_TITLE
+    private static final int INVALID_POINTER
+    220:220:public int getFooterColor()
+    230:230:public float getFooterLineHeight()
+    240:240:public float getFooterIndicatorHeight()
+    249:249:public float getFooterIndicatorPadding()
+    258:258:public com.viewpagerindicator.TitlePageIndicator$IndicatorStyle getFooterIndicatorStyle()
+    267:267:public com.viewpagerindicator.TitlePageIndicator$LinePosition getLinePosition()
+    276:276:public int getSelectedColor()
+    285:285:public boolean isSelectedBold()
+    294:294:public int getTextColor()
+    304:304:public float getTextSize()
+    313:313:public float getTitlePadding()
+    322:322:public float getTopPadding()
+    331:331:public float getClipPadding()
+    345:345:public android.graphics.Typeface getTypeface()
+    731:732:public void notifyDataSetChanged()
+com.viewpagerindicator.UnderlinePageIndicator:
+    private static final int INVALID_POINTER
+    private static final int FADE_FRAME_MS
+    113:113:public boolean getFades()
+    130:130:public int getFadeDelay()
+    138:138:public int getFadeLength()
+    147:147:public int getSelectedColor()
+    306:307:public void notifyDataSetChanged()
+com.wzl.dialoglib.R:
+    9:9:public R()
+com.wzl.dialoglib.R$anim
+com.wzl.dialoglib.R$color
+com.wzl.dialoglib.R$dimen
+com.wzl.dialoglib.R$drawable
+com.wzl.dialoglib.R$id:
+    248:248:public R$id()
+com.wzl.dialoglib.R$layout:
+    262:262:public R$layout()
+com.wzl.dialoglib.R$menu:
+    270:270:public R$menu()
+com.wzl.dialoglib.R$string
+com.wzl.dialoglib.R$style:
+    283:283:public R$style()
+com.wzl.vandan.dialog.VandaAlert:
+    27:27:public VandaAlert()
+com.yuan.PagerSlidingTabStrip:
+    453:453:public int getIndicatorColor()
+    462:462:public int getIndicatorHeight()
+    476:476:public int getUnderlineColor()
+    490:490:public int getDividerColor()
+    499:499:public int getUnderlineHeight()
+    508:508:public int getDividerPadding()
+    517:517:public int getScrollOffset()
+    526:526:public boolean getShouldExpand()
+    530:530:public boolean isTextAllCaps()
+    543:543:public int getTextSize()
+    557:557:public int getTextColor()
+    571:571:public int getTabBackground()
+    580:580:public int getTabPaddingLeftRight()
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENC
+    public static final java.lang.String CONTENT_DISPOSITION
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+    36:36:public MIME()
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody:
+    85:85:public java.io.InputStream getInputStream()
+    93:94:public void writeTo(java.io.OutputStream,int)
+    130:130:public java.io.File getFile()
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody
+uk.co.senab.actionbarpulltorefresh.library.InstanceCreationUtils:
+    private static final java.lang.String LOG_TAG
+    32:32:InstanceCreationUtils()
+    60:65:static java.lang.Object instantiateViewDelegate(android.content.Context,java.lang.String,java.lang.Object[])
+    70:75:static java.lang.Object instantiateTransformer(android.content.Context,java.lang.String,java.lang.Object[])
+uk.co.senab.actionbarpulltorefresh.library.PullToRefreshAttacher:
+    private static final float DEFAULT_REFRESH_SCROLL_DISTANCE
+    private static final boolean DEFAULT_REFRESH_ON_UP
+    private static final boolean DEBUG
+    private static final java.lang.String LOG_TAG
+    102:103:public PullToRefreshAttacher(android.app.Activity)
+uk.co.senab.actionbarpulltorefresh.library.PullToRefreshAttacher$DefaultHeaderTransformer:
+    833:837:public void setPullText(java.lang.CharSequence)
+    847:848:public void setRefreshingText(java.lang.CharSequence)
+    857:858:public void setReleaseText(java.lang.CharSequence)
+uk.co.senab.actionbarpulltorefresh.library.R:
+    9:9:public R()
+uk.co.senab.actionbarpulltorefresh.library.R$anim:
+    10:10:public R$anim()
+uk.co.senab.actionbarpulltorefresh.library.R$drawable
+uk.co.senab.actionbarpulltorefresh.library.R$id:
+    27:27:public R$id()
+uk.co.senab.actionbarpulltorefresh.library.R$layout:
+    33:33:public R$layout()
+uk.co.senab.actionbarpulltorefresh.library.R$string:
+    36:36:public R$string()
+uk.co.senab.actionbarpulltorefresh.library.R$style
+uk.co.senab.photoview.Compat:
+    private static final int SIXTY_FPS_INTERVAL
+    25:25:public Compat()
+uk.co.senab.photoview.IPhotoView:
+    public static final float DEFAULT_MAX_SCALE
+    public static final float DEFAULT_MID_SCALE
+    public static final float DEFAULT_MIN_SCALE
+    public static final int DEFAULT_ZOOM_DURATION
+    public abstract boolean canZoom()
+    public abstract android.graphics.RectF getDisplayRect()
+    public abstract boolean setDisplayMatrix(android.graphics.Matrix)
+    public abstract android.graphics.Matrix getDisplayMatrix()
+    public abstract float getMinScale()
+    public abstract float getMinimumScale()
+    public abstract float getMidScale()
+    public abstract float getMediumScale()
+    public abstract float getMaxScale()
+    public abstract float getMaximumScale()
+    public abstract float getScale()
+    public abstract android.widget.ImageView$ScaleType getScaleType()
+    public abstract void setAllowParentInterceptOnEdge(boolean)
+    public abstract void setMinScale(float)
+    public abstract void setMinimumScale(float)
+    public abstract void setMidScale(float)
+    public abstract void setMediumScale(float)
+    public abstract void setMaxScale(float)
+    public abstract void setMaximumScale(float)
+    public abstract void setOnLongClickListener(android.view.View$OnLongClickListener)
+    public abstract void setOnMatrixChangeListener(uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener)
+    public abstract void setOnPhotoTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener)
+    public abstract uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener getOnPhotoTapListener()
+    public abstract void setOnViewTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener)
+    public abstract void setRotationTo(float)
+    public abstract void setRotationBy(float)
+    public abstract uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener getOnViewTapListener()
+    public abstract void setScale(float)
+    public abstract void setScale(float,boolean)
+    public abstract void setScale(float,float,float,boolean)
+    public abstract void setScaleType(android.widget.ImageView$ScaleType)
+    public abstract void setZoomable(boolean)
+    public abstract void setPhotoViewRotation(float)
+    public abstract android.graphics.Bitmap getVisibleRectangleBitmap()
+    public abstract void setZoomTransitionDuration(int)
+    public abstract uk.co.senab.photoview.IPhotoView getIPhotoViewImplementation()
+    public abstract void setOnDoubleTapListener(android.view.GestureDetector$OnDoubleTapListener)
+uk.co.senab.photoview.PhotoView:
+    77:77:public boolean canZoom()
+    82:82:public android.graphics.RectF getDisplayRect()
+    87:87:public android.graphics.Matrix getDisplayMatrix()
+    92:92:public boolean setDisplayMatrix(android.graphics.Matrix)
+    98:98:public float getMinScale()
+    103:103:public float getMinimumScale()
+    109:109:public float getMidScale()
+    114:114:public float getMediumScale()
+    120:120:public float getMaxScale()
+    125:125:public float getMaximumScale()
+    130:130:public float getScale()
+    218:218:public uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener getOnPhotoTapListener()
+    228:228:public uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener getOnViewTapListener()
+    262:262:public android.graphics.Bitmap getVisibleRectangleBitmap()
+    272:272:public uk.co.senab.photoview.IPhotoView getIPhotoViewImplementation()
+uk.co.senab.photoview.PhotoViewAttacher:
+    private static final java.lang.String LOG_TAG
+    static final int EDGE_NONE
+    static final int EDGE_LEFT
+    static final int EDGE_RIGHT
+    static final int EDGE_BOTH
+    197:197:public boolean canZoom()
+    249:263:public boolean setDisplayMatrix(android.graphics.Matrix)
+    271:273:public void setPhotoViewRotation(float)
+    307:307:public float getMinScale()
+    318:318:public float getMidScale()
+    329:329:public float getMaxScale()
+    510:511:public void setMinScale(float)
+    522:523:public void setMidScale(float)
+    534:535:public void setMaxScale(float)
+    650:650:public android.graphics.Matrix getDisplayMatrix()
+    774:775:public android.graphics.Bitmap getVisibleRectangleBitmap()
+    787:787:public uk.co.senab.photoview.IPhotoView getIPhotoViewImplementation()
+uk.co.senab.photoview.gestures.CupcakeGestureDetector:
+    private static final java.lang.String LOG_TAG
+uk.co.senab.photoview.gestures.EclairGestureDetector:
+    private static final int INVALID_POINTER_ID
+uk.co.senab.photoview.gestures.VersionedGestureDetector:
+    22:22:public VersionedGestureDetector()
+uk.co.senab.photoview.log.LogManager:
+    23:23:public LogManager()
+    28:29:public static void setLogger(uk.co.senab.photoview.log.Logger)
+uk.co.senab.photoview.log.Logger:
+    public abstract int v(java.lang.String,java.lang.String)
+    public abstract int v(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int d(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int i(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int w(java.lang.String,java.lang.String)
+    public abstract int w(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract int e(java.lang.String,java.lang.String)
+    public abstract int e(java.lang.String,java.lang.String,java.lang.Throwable)
+uk.co.senab.photoview.log.LoggerDefault:
+    27:27:public int v(java.lang.String,java.lang.String)
+    32:32:public int v(java.lang.String,java.lang.String,java.lang.Throwable)
+    42:42:public int d(java.lang.String,java.lang.String,java.lang.Throwable)
+    52:52:public int i(java.lang.String,java.lang.String,java.lang.Throwable)
+    57:57:public int w(java.lang.String,java.lang.String)
+    62:62:public int w(java.lang.String,java.lang.String,java.lang.Throwable)
+    67:67:public int e(java.lang.String,java.lang.String)
+    72:72:public int e(java.lang.String,java.lang.String,java.lang.Throwable)

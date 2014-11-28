@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/linearlayout_item_select_color" >
+
+    <!-- android:layout_marginTop="@dimen/layout_margin_15dp" -->
+    <!-- android:layout_marginBottom="@dimen/layout_margin_15dp" -->
+
+    <RelativeLayout
+        android:id="@+id/search_item_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="1dp"
+        android:layout_marginBottom="@dimen/layout_margin_15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/layout_margin_15dp"
+        android:background="@drawable/search_item_image_bg"
+        android:gravity="center" >
+
+        <!-- android:layout_width="99dp" -->
+        <!-- android:layout_height="75dp" -->
+        <!-- android:src="@drawable/baby_image" -->
+        <!-- android:adjustViewBounds="true" -->
+        <!-- android:layout_marginLeft="@dimen/layout_marginleft" -->
+        <!-- android:layout_marginTop="@dimen/layout_margintop" -->
+        <!-- android:layout_marginBottom="@dimen/layout_marginbottom" -->
+        <!-- android:layout_marginRight="@dimen/layout_marginright" -->
+        <!-- android:scaleType="centerCrop" -->
+
+        <ImageView
+            android:id="@+id/brandfilter_iv_product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+           />
+<!--          android:src="@drawable/baby_image"  -->
+        <ImageView 
+            android:id="@+id/yizhikuai"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+             android:contentDescription="@null"
+             android:layout_alignBottom="@+id/brandfilter_iv_product_image"
+             android:layout_alignRight="@+id/brandfilter_iv_product_image"
+            android:background="@drawable/yizhikuai_pic"/>
+    </RelativeLayout>
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignTop="@+id/search_item_ll" -->
+<!--         android:layout_toRightOf="@+id/search_item_ll" -->
+<!--         android:background="@color/color_backgroud" -->
+<!--         android:orientation="vertical" > -->
+<!--  android:layout_alignTop="@+id/search_item_ll" -->
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margintop"
+            android:layout_toRightOf="@+id/search_item_ll"
+            android:background="@color/color_backgroud" >
+            <TextView
+                android:id="@+id/brandfilter_tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_marginleft"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/color_textcolor_3f3f3f"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_1"
+             android:layout_toRightOf="@+id/search_item_ll"
+            android:background="@color/color_backgroud"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/brandfilter_tv_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:padding="5dp"
+                android:textColor="#ee5015"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/brandfilter_tv_product_market_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/layout_marginleft"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:padding="5dp"
+                android:textColor="#8f8f8f"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <!-- android:layout_alignParentBottom="true" -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignBottom="@+id/search_item_ll"
+            android:layout_marginBottom="@dimen/layout_marginbottom"
+             android:layout_toRightOf="@+id/search_item_ll"
+            android:background="@color/color_backgroud"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/brandfilter_tv_buy_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_marginleft"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#a5a5a5"
+                android:textSize="15sp" />
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/brandfilter_iv_shopping_car" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentRight="true" -->
+<!--                 android:layout_centerVertical="true" -->
+<!--                 android:layout_marginRight="@dimen/layout_marginright_content" -->
+<!--                 android:background="@drawable/search_shopping_car" -->
+<!--                 android:contentDescription="@null" -->
+<!--                 android:visibility="gone" /> -->
+        </RelativeLayout>
+<!--     </LinearLayout> -->
+
+</RelativeLayout>

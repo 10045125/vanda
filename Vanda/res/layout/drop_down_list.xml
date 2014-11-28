@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+</LinearLayout>
+<!-- <cn.trinea.android.common.view.DropDownListView -->
+<!--     xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     xmlns:listViewAttr="http://schemas.android.com/apk/res/com.vanda.beivandalibnetworkdemo" -->
+<!--           android:id="@+id/listView" -->
+<!--           android:scrollbarStyle="outsideOverlay" -->
+<!--           android:smoothScrollbar="true" -->
+<!--           android:drawSelectorOnTop="false" -->
+<!--           android:layout_width="match_parent" -->
+<!--            android:listSelector="@color/color_backgroud" -->
+<!--           android:divider="@android:color/transparent" -->
+<!--           android:layout_height="match_parent" -->
+<!--         listViewAttr:isAutoLoadOnBottom="true" -->
+<!--         listViewAttr:isDropDownStyle="true" -->
+<!--         listViewAttr:isOnBottomStyle="true" -->
+<!--     /> -->
+    

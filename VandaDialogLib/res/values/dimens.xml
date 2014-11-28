@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 文字大小属性设置 -->
+    <dimen name="text_size_select_way">15sp</dimen>
+    <dimen name="text_size_select_way_title">17sp</dimen>
+    
+    <dimen name="text_size_take_photo">15sp</dimen>
+    
+    <!-- Button的宽高属性设置 -->
+    <dimen name="btn_dp_select_way_close">26dp</dimen>
+    <dimen name="btn_dp_photo_take_photo">50dp</dimen>
+</resources>

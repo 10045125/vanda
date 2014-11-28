@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/collection_item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#fe4200">
+    
+    <RelativeLayout 
+        android:id="@+id/search_item_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:background="@null">
+        <ImageView
+            android:id="@+id/collection_item_iv_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"/>
+         <ImageView
+                android:id="@+id/yizhikuai"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/collection_item_iv_product"
+                android:layout_alignRight="@+id/collection_item_iv_product"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:contentDescription="@null" />
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/search_item_ll"
+        android:background="@color/color_backgroud"
+        android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_backgroud">
+            <TextView 
+                android:id="@+id/collection_item_tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="cat"
+                android:textColor="#3f3f3f"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/color_backgroud">
+            <TextView 
+                android:id="@+id/collection_item_tv_product_sale_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#ee5015"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="16sp"/>
+<!--             <TextView  -->
+<!--                 android:id="@+id/search_item_market_price" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_marginLeft="@dimen/layout_marginleft" -->
+<!--                 android:text="@string/search_brand_price" -->
+<!--                 android:layout_gravity="bottom" -->
+<!--                 android:padding="5dp" -->
+<!--                 android:textColor="#8f8f8f" -->
+<!--                 android:singleLine="true" -->
+<!--                 android:ellipsize="end" -->
+<!--                 android:textSize="14sp"/> -->
+        </LinearLayout>
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            android:background="@color/color_backgroud">
+            <TextView 
+                android:id="@+id/collection_item_tv_buy_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:textColor="#a5a5a5"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="13sp"/>
+            <ImageView 
+                android:id="@+id/collection_item_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+<!--     <include layout="@layout/view_line" -->
+<!--         android:layout_below="@+id/search_item_ll"/> -->
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bg_listitem_shot" format="reference"/>
+    <attr name="ic_view" format="reference"/>
+    <attr name="ic_comment" format="reference"/>
+    <attr name="ic_like" format="reference"/>
+    
+     <declare-styleable name="ProgressWheel">
+        <attr name="progress" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="dimension" />
+        <attr name="delayMillis" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="barLength" format="dimension" />
+    </declare-styleable>
+</resources>

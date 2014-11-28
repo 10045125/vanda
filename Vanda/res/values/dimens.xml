@@ -1,0 +1,147 @@
+<resources>
+
+   
+    <!-- line -->
+    <dimen name="line">0.5dp</dimen>
+   
+    
+    
+    <!-- common title height -->
+    <dimen name="common_title_bar_height">65dp</dimen>
+    <dimen name="common_bottom_bar_height">60dp</dimen>
+    <dimen name="common_bar_height">44dp</dimen>
+    <dimen name="common_search_bar_height">44dp</dimen>
+    <dimen name="common_bottom_height">65dp</dimen>
+    <dimen name="common_bottom_bar_height">80dp</dimen>
+    <dimen name="common_navigate_icon_size">30dp</dimen>
+    <dimen name="compent_height">80dp</dimen>
+    <dimen name="shadow_width">2dp</dimen>
+    
+  
+    
+    
+    <!-- 个人中心图片大小 -->
+    <dimen name="personalfragment_imagely_size_w">75dp</dimen>
+    <dimen name="personalfragment_imagely_size_h">75dp</dimen>
+    <dimen name="personalfragment_image_size_w">70dp</dimen>
+    <dimen name="personalfragment_image_size_h">70dp</dimen>
+   
+    
+    
+    <!-- two margin -->
+    <dimen name="layout_marginleft">5dp</dimen>
+    <dimen name="layout_marginright">5dp</dimen>
+    <dimen name="layout_margintop">5dp</dimen>
+    <dimen name="layout_marginbottom">5dp</dimen>
+    
+    
+    
+    <!--距离边框的长度 -->
+    <dimen name="layout_margin_15dp">15dp</dimen>
+    <dimen name="layout_marginleft_content">10dp</dimen>
+    <dimen name="layout_marginright_content">10dp</dimen>
+    <dimen name="layout_margintop_content">10dp</dimen>
+    <dimen name="layout_marginbottom_content">10dp</dimen>
+    
+    
+    <!-- 边框距离 
+          这个可以自己定义，例如是margin8，margin12
+    -->
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="margin35">35dp</dimen>
+    <dimen name="margin40">40dp</dimen>
+    <dimen name="margin45">45dp</dimen>
+    <dimen name="margin50">50dp</dimen>
+    <dimen name="margin60">60dp</dimen>
+    <dimen name="margin65">65dp</dimen>
+    <dimen name="margin70">70dp</dimen>
+    <dimen name="margin75">75dp</dimen>
+    <dimen name="margin80">80dp</dimen>
+    <dimen name="margin85">85dp</dimen>
+    <dimen name="margin90">90dp</dimen>
+    <dimen name="margin95">95dp</dimen>
+    <dimen name="margin100">100dp</dimen>
+    <dimen name="margin105">105dp</dimen>
+    <dimen name="margin110">110dp</dimen>
+    
+    <!-- 图片大小 -->
+    <!-- 图片大小 -->
+    <dimen name="image_size_home">55dp</dimen>
+    <dimen name="image_size_60dp">60dp</dimen>
+    <dimen name="imagexxlarge">50dp</dimen>
+    <dimen name="imagexlarge">40dp</dimen>
+    <dimen name="imagesmall">25dp</dimen>
+    <dimen name="imagessmall">20dp</dimen>
+    <dimen name="imagemiddle">30dp</dimen>
+    <dimen name="imagelarge">35dp</dimen>
+      <dimen name="imagexsmall">20dp</dimen>
+    
+    
+    
+    <!-- 按键高度 -->
+    <dimen name="button_s_height">20dp</dimen>
+    <dimen name="button_l_height">30dp</dimen>  
+    <dimen name="button_m_height">40dp</dimen>
+    <dimen name="button_h_height">50dp</dimen>
+    <dimen name="button_x_60dp">60dp</dimen>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="button_m_width">60dp</dimen>
+    
+    
+    
+    
+    <!-- 字体的大小 -->
+    <dimen name="textsize_compent_xlsize">13sp</dimen>
+    <dimen name="textsize_compent_lsize">14sp</dimen>
+    <dimen name="textsize_compent_msize">15sp</dimen>
+    <dimen name="textsize_compent_hsize">16sp</dimen>
+    <dimen name="textsize_compent_xsize">17sp</dimen>
+    <dimen name="textsize_compent_title">20sp</dimen>
+    <dimen name="textsize_compent_ltitle">20sp</dimen>
+    <dimen name="textsize_compent_mtitle">22sp</dimen>
+    <dimen name="textsize_compent_htitle">24sp</dimen>
+    <dimen name="textsize_compent_xtitle">26sp</dimen>
+    
+    <dimen name="home_latest_online_time_bg_height">20dp</dimen>
+    <dimen name="home_latest_online_time_bg_width">60dp</dimen>
+    
+    <!-- pading 大小 -->
+    <dimen name="pading_5dp">5dp</dimen>
+    <dimen name="pading_10dp">10dp</dimen>
+    
+    
+     <!-- 郑堉钦 -->
+    <!-- 购物车的底栏的高度 -->
+    <dimen name="shoppingcar_bottom_h">100dp</dimen>
+    <dimen name="shoppingcar_bottom_marginleft">10dp</dimen>
+    <dimen name="shoppingcar_bottom_margintop">15dp</dimen>
+    <dimen name="shoppingcar_bottom_marginbottom">12dp</dimen>
+    <dimen name="shoppingcar_bottom_padding">8dp</dimen>
+    <dimen name="shoppingcar_bottom_btn_width">120dp</dimen>
+    <dimen name="shoppingcar_bottom_btn_text_size">17sp</dimen>
+    <dimen name="shoppingcar_bottom_text_hsize">25sp</dimen>
+    <dimen name="shoppingcar_bottom_text_ssize">15sp</dimen>
+    <dimen name="shoppingcar_bottom_text_msize">18sp</dimen>
+    
+    <!-- 确认订单 -->
+    <dimen name="orders_layout_margin">10dp</dimen>
+    <dimen name="orders_layout_padding">8dp</dimen>
+    <dimen name="orders_text_ssize">15sp</dimen>
+    <dimen name="orders_text_msize">16sp</dimen>
+    <dimen name="orders_text_17">17sp</dimen>
+    <dimen name="orders_text_hsize">18sp</dimen>
+    <dimen name="orders_text_lsize">19sp</dimen>
+    
+    <!-- niftyDialogEffects -->
+      <dimen name="dialog_padding">25dp</dimen>
+      
+      
+      <!-- 商品详情 -->
+      <dimen name="art_title_padding">5dp</dimen>
+    <!-- 郑堉钦 -->
+</resources>

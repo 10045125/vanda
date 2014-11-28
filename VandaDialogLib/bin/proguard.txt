@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.wzl.dialoglib.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:32
+-keepclassmembers class * { *** onTextViewOnClickCancel(...); }
+
+# onClick res/layout/activity_main.xml #generated:42
+-keepclassmembers class * { *** onTextViewOnClickProgress(...); }
+
+# onClick res/layout/activity_main.xml #generated:22
+-keepclassmembers class * { *** onTextViewOnClickTake(...); }
+

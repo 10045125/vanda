@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="drop_down_list_header_default_text">Click to refresh&#8230;</string>
+    <string name="drop_down_list_header_pull_text">Drop Down to refresh&#8230;</string>
+    <string name="drop_down_list_header_release_text">Release to refresh&#8230;</string>
+    <string name="drop_down_list_header_loading_text">Loading&#8230;</string>
+    <string name="drop_down_list_footer_default_text">More</string>
+    <string name="drop_down_list_footer_loading_text">Loading&#8230;</string>
+    <string name="drop_down_list_footer_no_more_text">No More</string>
+    
+    <string name="image_content">Image</string>
+    
+    <string name="camera_no">没有摄像设备</string>
+    <string name="camera_no_file">文件不存在</string>
+    <string name="camera_no_link">创建内部链接失败！</string>
+    <string name="update_at">最后更新:</string>
+</resources>

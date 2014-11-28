@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/viewpager_relayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_backgroud"
+        android:visibility="visible" >
+
+        <com.vanda.beivandalibnetwork.view.utils.AutoScrollViewPager
+            android:id="@+id/home_fragment_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/home_fragment_circlepageindicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:padding="5dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_backgroud"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <include layout="@layout/listitem_shot" 
+                android:id="@+id/layout_listitem_shot_01"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <include layout="@layout/listitem_shot"
+                android:id="@+id/layout_listitem_shot_02" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/jingxuan_child_item" 
+        android:id="@+id/layout_jingxuan_child_item_01"/>
+
+    <include layout="@layout/jingxuan_child_item" 
+        android:id="@+id/layout_jingxuan_child_item_02"/>
+
+    <include layout="@layout/jingxuan_child_item" 
+        android:id="@+id/layout_jingxuan_child_item_03"/>
+
+    <include layout="@layout/jingxuan_child_item" 
+        android:id="@+id/layout_jingxuan_child_item_04"/>
+
+</LinearLayout>

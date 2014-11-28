@@ -1,0 +1,121 @@
+# view res/layout/fragment_child_layout.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:8
+# view res/layout/fragment_layout.xml #generated:8
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/swipe_ref_layout.xml #generated:13
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:44
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large/res/layout-large/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:27
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:37
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:32
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/fragment_child_layout.xml #generated:18
+-keep class com.astuetz.PagerSlidingTabStrip { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:18
+# view res/layout/fragment_listview.xml #generated:9
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(...); }
+
+# view res/layout/actionbar_title.xml #generated:7
+# view res/layout/listitem_shot.xml #generated:18
+-keep class com.romainpiel.shimmer.ShimmerTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.vanda.beivandalibnetwork.activity.AppStart { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.vanda.beivandalibnetwork.activity.FragmentMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.vanda.beivandalibnetwork.activity.ImageViewFragmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.vanda.beivandalibnetwork.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.vanda.beivandalibnetwork.activity.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.vanda.beivandalibnetwork.application.VandaApplication { <init>(...); }
+
+# view res/layout/photo_imageview.xml #generated:13
+-keep class com.vanda.beivandalibnetwork.utils.ProgressWheel { <init>(...); }
+
+# view res/layout/photo_imageview_viewpage.xml #generated:6
+-keep class com.vanda.beivandalibnetwork.utils.ViewPagerFixed { <init>(...); }
+
+# view res/layout/information_list_item_shot.xml #generated:15
+# view res/layout/jingxuan_item.xml #generated:14
+# view res/layout/viewpager_indicator.xml #generated:14
+-keep class com.vanda.beivandalibnetwork.view.utils.AutoScrollViewPager { <init>(...); }
+
+# view res/layout/for_me.xml #generated:9
+-keep class com.vanda.beivandalibnetwork.view.utils.JustifyTextView { <init>(...); }
+
+# view res/layout/information_list_item_shot.xml #generated:21
+# view res/layout/jingxuan_item.xml #generated:20
+# view res/layout/viewpager_indicator.xml #generated:20
+-keep class com.viewpagerindicator.CirclePageIndicator { <init>(...); }
+
+# view res/layout/photo_imageview.xml #generated:7
+-keep class uk.co.senab.photoview.PhotoView { <init>(...); }
+
