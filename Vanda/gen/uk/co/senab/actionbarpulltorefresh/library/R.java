@@ -25,10 +25,10 @@ public final class R {
 		public static final int ptr_progressbar_indeterminate_holo8 = 0x7f0200d4;
 	}
 	public static final class id {
-		public static final int ptr_content = 0x7f09001c;
-		public static final int ptr_progress = 0x7f09001f;
-		public static final int ptr_text = 0x7f09001e;
-		public static final int ptr_text_opaque_bg = 0x7f09001d;
+		public static final int ptr_content = 0x7f090009;
+		public static final int ptr_progress = 0x7f09000c;
+		public static final int ptr_text = 0x7f09000b;
+		public static final int ptr_text_opaque_bg = 0x7f09000a;
 	}
 	public static final class layout {
 		public static final int default_header = 0x7f030019;

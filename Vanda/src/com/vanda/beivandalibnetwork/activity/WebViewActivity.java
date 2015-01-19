@@ -29,7 +29,7 @@ public class WebViewActivity extends SherlockFragmentActivity {
 		initActionBar();
 		setTitle("详情");
 		url = getIntent().getStringExtra("url");
-		docid = getIntent().getIntExtra("docId", 0);
+		docid = getIntent().getIntExtra("docId",-1);
 		initData();
 
 	}
@@ -37,7 +37,7 @@ public class WebViewActivity extends SherlockFragmentActivity {
 	@SuppressLint("DefaultLocale")
 	private String getUrl() {
 		return String
-				.format("http://api.fengniao.com/app_ipad/news_iphone_doc_v2.php?docid=%d&isPad=2",
+				.format("http://api.fengniao.com/app_ipad/news_iphone_doc_v2.php?docid=%s&isPad=2",
 						docid);
 	}
 

@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.vanda.beivandalibnetwork.activity.WebViewActivity;
 import com.vanda.beivandalibnetwork.pojo.InformationIndication;
@@ -99,10 +100,14 @@ public class ImagePagerAdapter extends PagerAdapter implements IconPagerAdapter 
 
 			@Override
 			public void onClick(View v) {
+				if(imagesResource.get(position).doc_id == null){
+					Toast.makeText(context, "内容不存在！", Toast.LENGTH_SHORT).show();
+					return;
+				}
 				Bundle bu = new Bundle();
 				bu.putString("url", imagesResource.get(position).web_url);
-				bu.putInt("docId",
-						Integer.parseInt(imagesResource.get(position).doc_id));
+				bu.putString("docId",
+						imagesResource.get(position).doc_id);
 				Intent it = new Intent(context, WebViewActivity.class);
 				it.putExtras(bu);
 				context.startActivity(it);

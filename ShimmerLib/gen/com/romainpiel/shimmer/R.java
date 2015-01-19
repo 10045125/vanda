@@ -55,6 +55,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.romainpiel.shimmer:reflectionColor
         */
-        public static final int ShimmerView_reflectionColor = 0;
+        public static int ShimmerView_reflectionColor = 0;
     };
 }

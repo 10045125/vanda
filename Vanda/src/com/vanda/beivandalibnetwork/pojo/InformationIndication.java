@@ -6,7 +6,7 @@ public class InformationIndication {
 	public String title;
 	public String pic_src;
 	public String date;
-	public int comment_page_num;
+	public String comment_page_num; //之前是int
 	public int comments_num;
 	public String more_comment_url;
 	public String web_url;

@@ -14,6 +14,7 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.toolbox.ImageLoader;
 import com.romainpiel.shimmer.Shimmer;
@@ -297,14 +298,25 @@ public class JingxuanAdapter extends PullLoadArrayAdaper<JingXuan> {
 		public void onClick(View v) {
 			Bundle bu = new Bundle();
 			Intent it = new Intent(mContext, WebViewActivity.class);
+			// if (mArrayListBrandFilter.get(position).mArrayListData_.get(id -
+			// 1).doc_id == null
+			// || "".equals(mArrayListBrandFilter.get(position).mArrayListData_
+			// .get(id - 1).doc_id)) {
+			// Toast.makeText(mContext, "文章介绍不存在！", Toast.LENGTH_SHORT).show();
+			// return;
+			// }
 			switch (v.getId()) {
 			case R.id.image:
 
 				bu.putString("url",
 						mArrayListBrandFilter.get(position).mArrayListData_
 								.get(id - 1).web_url);
-				bu.putInt("docId", Integer.parseInt(mArrayListBrandFilter
-						.get(position).mArrayListData_.get(id - 1).doc_id));
+				bu.putInt(
+						"docId",
+						Integer.parseInt(mArrayListBrandFilter.get(position).mArrayListData_
+								.get(id - 1).doc_id != "" ? mArrayListBrandFilter
+								.get(position).mArrayListData_.get(id - 1).doc_id
+								: "0"));
 
 				it.putExtras(bu);
 				mContext.startActivity(it);
@@ -313,8 +325,12 @@ public class JingxuanAdapter extends PullLoadArrayAdaper<JingXuan> {
 				bu.putString("url",
 						mArrayListBrandFilter.get(position).mArrayListData
 								.get(0).web_url);
-				bu.putInt("docId", Integer.parseInt(mArrayListBrandFilter
-						.get(position).mArrayListData.get(0).doc_id));
+				bu.putInt(
+						"docId",
+						Integer.parseInt(mArrayListBrandFilter.get(position).mArrayListData
+								.get(0).doc_id != "" ? mArrayListBrandFilter
+								.get(position).mArrayListData.get(0).doc_id
+								: "0"));
 				it.putExtras(bu);
 				mContext.startActivity(it);
 				break;
@@ -322,8 +338,12 @@ public class JingxuanAdapter extends PullLoadArrayAdaper<JingXuan> {
 				bu.putString("url",
 						mArrayListBrandFilter.get(position).mArrayListData
 								.get(1).web_url);
-				bu.putInt("docId", Integer.parseInt(mArrayListBrandFilter
-						.get(position).mArrayListData.get(1).doc_id));
+				bu.putInt(
+						"docId",
+						Integer.parseInt(mArrayListBrandFilter.get(position).mArrayListData
+								.get(1).doc_id != "" ? mArrayListBrandFilter
+								.get(position).mArrayListData.get(1).doc_id
+								: "0"));
 				it.putExtras(bu);
 				mContext.startActivity(it);
 				break;
@@ -331,8 +351,12 @@ public class JingxuanAdapter extends PullLoadArrayAdaper<JingXuan> {
 				bu.putString("url",
 						mArrayListBrandFilter.get(position).mArrayListData
 								.get(2).web_url);
-				bu.putInt("docId", Integer.parseInt(mArrayListBrandFilter
-						.get(position).mArrayListData.get(2).doc_id));
+				bu.putInt(
+						"docId",
+						Integer.parseInt(mArrayListBrandFilter.get(position).mArrayListData
+								.get(2).doc_id != "" ? mArrayListBrandFilter
+								.get(position).mArrayListData.get(2).doc_id
+								: "0"));
 				it.putExtras(bu);
 				mContext.startActivity(it);
 				break;
@@ -340,8 +364,12 @@ public class JingxuanAdapter extends PullLoadArrayAdaper<JingXuan> {
 				bu.putString("url",
 						mArrayListBrandFilter.get(position).mArrayListData
 								.get(3).web_url);
-				bu.putInt("docId", Integer.parseInt(mArrayListBrandFilter
-						.get(position).mArrayListData.get(3).doc_id));
+				bu.putInt(
+						"docId",
+						Integer.parseInt(mArrayListBrandFilter.get(position).mArrayListData
+								.get(3).doc_id != "" ? mArrayListBrandFilter
+								.get(position).mArrayListData.get(3).doc_id
+								: "0"));
 				it.putExtras(bu);
 				mContext.startActivity(it);
 				break;

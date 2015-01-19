@@ -264,8 +264,8 @@ public final class R {
 		public static final int abs__action_bar_subtitle = 0x7f090026;
 		public static final int abs__action_bar_title = 0x7f090025;
 		public static final int abs__action_context_bar = 0x7f090036;
-		public static final int abs__action_menu_divider = 0x7f090018;
-		public static final int abs__action_menu_presenter = 0x7f090019;
+		public static final int abs__action_menu_divider = 0x7f090005;
+		public static final int abs__action_menu_presenter = 0x7f090006;
 		public static final int abs__action_mode_bar = 0x7f09003a;
 		public static final int abs__action_mode_bar_stub = 0x7f090039;
 		public static final int abs__action_mode_close_button = 0x7f090029;
@@ -274,13 +274,13 @@ public final class R {
 		public static final int abs__content = 0x7f090037;
 		public static final int abs__default_activity_button = 0x7f09002d;
 		public static final int abs__expand_activities_button = 0x7f09002b;
-		public static final int abs__home = 0x7f090016;
+		public static final int abs__home = 0x7f090003;
 		public static final int abs__icon = 0x7f09002f;
 		public static final int abs__image = 0x7f09002c;
 		public static final int abs__imageButton = 0x7f090027;
 		public static final int abs__list_item = 0x7f09002e;
-		public static final int abs__progress_circular = 0x7f09001a;
-		public static final int abs__progress_horizontal = 0x7f09001b;
+		public static final int abs__progress_circular = 0x7f090007;
+		public static final int abs__progress_horizontal = 0x7f090008;
 		public static final int abs__radio = 0x7f090032;
 		public static final int abs__search_badge = 0x7f09003d;
 		public static final int abs__search_bar = 0x7f09003c;
@@ -297,18 +297,18 @@ public final class R {
 		public static final int abs__submit_area = 0x7f090044;
 		public static final int abs__textButton = 0x7f090028;
 		public static final int abs__title = 0x7f090030;
-		public static final int abs__up = 0x7f090017;
-		public static final int disableHome = 0x7f090015;
+		public static final int abs__up = 0x7f090004;
+		public static final int disableHome = 0x7f09001a;
 		public static final int edit_query = 0x7f09003b;
-		public static final int homeAsUp = 0x7f090012;
-		public static final int listMode = 0x7f09000e;
-		public static final int normal = 0x7f09000d;
-		public static final int showCustom = 0x7f090014;
-		public static final int showHome = 0x7f090011;
-		public static final int showTitle = 0x7f090013;
-		public static final int tabMode = 0x7f09000f;
-		public static final int useLogo = 0x7f090010;
-		public static final int wrap_content = 0x7f09000c;
+		public static final int homeAsUp = 0x7f09001b;
+		public static final int listMode = 0x7f090017;
+		public static final int normal = 0x7f090018;
+		public static final int showCustom = 0x7f09001c;
+		public static final int showHome = 0x7f09001d;
+		public static final int showTitle = 0x7f09001e;
+		public static final int tabMode = 0x7f090019;
+		public static final int useLogo = 0x7f09001f;
+		public static final int wrap_content = 0x7f090016;
 	}
 	public static final class integer {
 		public static final int abs__max_action_buttons = 0x7f0b0000;

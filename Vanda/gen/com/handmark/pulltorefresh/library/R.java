@@ -282,34 +282,34 @@ public final class R {
 	}
 	public static final class id {
 		public static final int action_settings = 0x7f09009a;
-		public static final int both = 0x7f090003;
+		public static final int both = 0x7f09000d;
 		public static final int dialog_cancel = 0x7f09005c;
 		public static final int dialog_ok = 0x7f09005b;
 		public static final int dialog_ok_or_cancel_title = 0x7f09005a;
 		public static final int dialog_select_way_btn = 0x7f090058;
 		public static final int dialog_select_way_colse = 0x7f090059;
-		public static final int disabled = 0x7f090000;
+		public static final int disabled = 0x7f09000e;
 		public static final int fl_inner = 0x7f090088;
-		public static final int flip = 0x7f090008;
-		public static final int gridview = 0x7f090009;
-		public static final int manualOnly = 0x7f090004;
+		public static final int flip = 0x7f090014;
+		public static final int gridview = 0x7f090000;
+		public static final int manualOnly = 0x7f09000f;
 		public static final int photo_cancel = 0x7f09007f;
 		public static final int photo_take_cell_picture = 0x7f09007e;
 		public static final int photo_take_picture = 0x7f09007d;
-		public static final int pullDownFromTop = 0x7f090005;
-		public static final int pullFromEnd = 0x7f090002;
-		public static final int pullFromStart = 0x7f090001;
-		public static final int pullUpFromBottom = 0x7f090006;
+		public static final int pullDownFromTop = 0x7f090010;
+		public static final int pullFromEnd = 0x7f090011;
+		public static final int pullFromStart = 0x7f090012;
+		public static final int pullUpFromBottom = 0x7f090013;
 		public static final int pull_to_refresh_image = 0x7f090089;
 		public static final int pull_to_refresh_progress = 0x7f09008a;
 		public static final int pull_to_refresh_sub_text = 0x7f09008c;
 		public static final int pull_to_refresh_text = 0x7f09008b;
 		public static final int radiobutton1 = 0x7f09008d;
 		public static final int radiogroup1 = 0x7f090057;
-		public static final int rotate = 0x7f090007;
-		public static final int scrollview = 0x7f09000b;
+		public static final int rotate = 0x7f090015;
+		public static final int scrollview = 0x7f090002;
 		public static final int title = 0x7f090056;
-		public static final int webview = 0x7f09000a;
+		public static final int webview = 0x7f090001;
 	}
 	public static final class layout {
 		public static final int activity_main = 0x7f030016;

@@ -174,7 +174,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsDividerColor
         */
-        public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
+        public static int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -190,7 +190,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsDividerPadding
         */
-        public static final int PagerSlidingTabStrip_pstsDividerPadding = 5;
+        public static int PagerSlidingTabStrip_pstsDividerPadding = 5;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -205,7 +205,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsIndicatorColor
         */
-        public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
+        public static int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -221,7 +221,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsIndicatorHeight
         */
-        public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 3;
+        public static int PagerSlidingTabStrip_pstsIndicatorHeight = 3;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -237,7 +237,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsScrollOffset
         */
-        public static final int PagerSlidingTabStrip_pstsScrollOffset = 7;
+        public static int PagerSlidingTabStrip_pstsScrollOffset = 7;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -251,7 +251,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsShouldExpand
         */
-        public static final int PagerSlidingTabStrip_pstsShouldExpand = 9;
+        public static int PagerSlidingTabStrip_pstsShouldExpand = 9;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -261,7 +261,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.astuetz.pagerslidingtabstrip:pstsTabBackground
         */
-        public static final int PagerSlidingTabStrip_pstsTabBackground = 8;
+        public static int PagerSlidingTabStrip_pstsTabBackground = 8;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -277,7 +277,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsTabPaddingLeftRight
         */
-        public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 6;
+        public static int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 6;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -291,7 +291,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsTextAllCaps
         */
-        public static final int PagerSlidingTabStrip_pstsTextAllCaps = 10;
+        public static int PagerSlidingTabStrip_pstsTextAllCaps = 10;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -306,7 +306,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsUnderlineColor
         */
-        public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
+        public static int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -322,7 +322,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:pstsUnderlineHeight
         */
-        public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 4;
+        public static int PagerSlidingTabStrip_pstsUnderlineHeight = 4;
         /**
           <p>This symbol is the offset where the {@link com.astuetz.pagerslidingtabstrip.R.attr#selectedTabTextColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
@@ -337,6 +337,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.astuetz.pagerslidingtabstrip:selectedTabTextColor
         */
-        public static final int PagerSlidingTabStrip_selectedTabTextColor = 11;
+        public static int PagerSlidingTabStrip_selectedTabTextColor = 11;
     };
 }
