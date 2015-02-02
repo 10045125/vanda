@@ -16,7 +16,7 @@ public class LoadingFooter {
 
 	protected TextView mLoadingText;
 
-	protected State mState = State.Idle;
+	protected State mState = State.Loading;
 
 	private ProgressBar mProgress;
 
@@ -40,7 +40,6 @@ public class LoadingFooter {
 		mLoadingText = (TextView) mLoadingFooter.findViewById(R.id.textView);
 		mAnimationDuration = context.getResources().getInteger(
 				android.R.integer.config_shortAnimTime);
-		setState(State.Idle);
 	}
 
 	public View getView() {
